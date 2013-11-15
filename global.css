@@ -46,8 +46,8 @@ blockquote,q { quotes:"" ""; }
 
 #slides {
 	position:absolute;
-	top:15px;
-	left:4px;
+	top:0px;
+	left:0px;
 	z-index:100;
 }
 
@@ -55,15 +55,15 @@ blockquote,q { quotes:"" ""; }
 	position: absolute;
 	top: 246px;
 	left: -2px;
-	width: 24px;
-	height: 43px;
+	width: 31px;
+	height: 265px;
 	display: block;
 	z-index: 101;
 }
 
 .slides_container {
 	width:1000px;
-	height:270px;
+	height:560px;
 	overflow:hidden;
 	position:relative;
 	/*display:none;*/
@@ -96,15 +96,19 @@ blockquote,q { quotes:"" ""; }
 	padding:10px;
 	float:left;
 	font-size:1.3em;
-	background:url(../../../AppData/Roaming/Adobe/Dreamweaver%20CC/zh_CN/Configuration/Temp/assets/download-background.png) no-repeat top center;
+	background:url(image/pagination.png) no-repeat top center;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 }
 
+.tab-pannel{height:560px;}
+
 .pagination {
-	margin:26px auto 0;
-	width:100px;
+	margin: -27px auto 0;
+width: 100px;
+z-index: 2;
+position: relative;
 }
 
 .pagination li {
@@ -117,7 +121,7 @@ blockquote,q { quotes:"" ""; }
 	width:12px;
 	height:0;
 	padding-top:12px;
-	background-image:url(../../../AppData/Roaming/Adobe/Dreamweaver%20CC/zh_CN/Configuration/Temp/assets/pagination.png);
+	background-image:url(image/pagination.png);
 	background-position:0 0;
 	float:left;
 	overflow:hidden;
@@ -134,7 +138,7 @@ a:link.download,a:visited.download {
 	height:0;
 	padding-top:55px;
 	overflow:hidden;
-	background-image:url(../../../AppData/Roaming/Adobe/Dreamweaver%20CC/zh_CN/Configuration/Temp/assets/btn-download.png);
+	background-image:url(image/pagination.png);
 	background-position:0 0;
 }
 
@@ -174,9 +178,6 @@ pre {
 ul.examples {
 	list-style:disc;
 	margin:-9px 0 9px 14px;
-}
-p {
-	margin:9px 0;
 }
 
 em {
