@@ -53,8 +53,8 @@ blockquote,q { quotes:"" ""; }
 
 #slides .next,#slides .prev {
 	position: absolute;
-	top: 249px;
-	left: -39px;
+	top: 246px;
+	left: -2px;
 	width: 24px;
 	height: 43px;
 	display: block;
