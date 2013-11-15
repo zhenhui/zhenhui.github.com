@@ -197,7 +197,7 @@ a:hover {
 }
 /*回到最上----------------------------------------------------------*/
 .top {
-	margin-top: 20px;
+	margin-top: 20px,auto;
 	padding-top: 20px;
 	clear: both;
 	height: 120px;
