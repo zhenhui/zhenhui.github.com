@@ -45,8 +45,10 @@ a:hover {
 }
 .logo {
 	position: absolute;
-	left: 4px;
+	left: 0px;
 	top: 13px;
+	width: 196px;
+	text-align:left;
 }
 .menu {
 	width: 390px;
@@ -226,13 +228,13 @@ a:hover {
 	background-color: #bbb;
 }
 .topcolor{	
-	height: 3px;
+	height: 2px;
 	magrgin: 1px auto;
-	background: #f25bad;
+	background:#EC11C0;
 }
 .topweight{
 	position:relative;
-	height:123px;
+	height:122px;
 	width:1000px;
 	margin:auto;
 	top:0px;
