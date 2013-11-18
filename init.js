@@ -2,5 +2,5 @@
 
 define(function(require,exports,module){
 	require('head')
-	//require('footer')
+	require('footer')
 })
