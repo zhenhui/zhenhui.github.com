@@ -105,15 +105,16 @@ blockquote,q { quotes:"" ""; }
 .tab-pannel{height:560px;}
 
 .pagination {
-	margin: -27px auto 0;
-width: 100px;
-z-index: 2;
-position: relative;
+	position:absolute;
+	left:0;
+	bottom:22px;
+	width: 100%;
+	z-index: 2;
+	text-align:center;
 }
 
 .pagination li {
-	float:left;
-	margin:0 1px;
+	display:inline-block;
 }
 
 .pagination li a {

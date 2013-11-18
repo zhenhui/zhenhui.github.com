@@ -48,7 +48,7 @@ a:hover {
 	left: 0px;
 	top: 13px;
 	width: 196px;
-	text-align:left;
+	text-align: left;
 }
 .menu {
 	width: 390px;
@@ -199,8 +199,7 @@ a:hover {
 }
 /*回到最上----------------------------------------------------------*/
 .top {
-	
-	margin-top: 20px,auto;
+	margin-top: 20px, auto;
 	padding-top: 20px;
 	clear: both;
 	height: 120px;
@@ -208,38 +207,30 @@ a:hover {
 	color: #000;
 	font-size: 22px;
 	cursor: pointer;
+	position: relative;
 }
 .top .topimage {
-	position: absolute;
-	margin: 0 auto;
-	top: 7px;
-	left: 485px;
-	color: red;
 	background-image: url(image/top.png);
 	width: 54px;
-	height: 54px
-}
-.toptext {
-	position: absolute;
-	top: 80px;
-	left: 457px;
+	height: 54px;
+	margin: 0 auto;
 }
 .top-hover {
 	background-color: #bbb;
 }
-.topcolor{	
+.topcolor {
 	height: 2px;
 	magrgin: 1px auto;
-	background:#EC11C0;
+	background: #EC11C0;
 }
-.topweight{
-	position:relative;
-	height:122px;
-	width:1000px;
-	margin:auto;
-	top:0px;
-	left::0px;
-	background:
+.topweight {
+	position: absolute;
+	height: 122px;
+	margin: auto;
+	top: 23px;
+	left: 50%;
+	width: 164px;
+	margin-left: -82px;
 }
 /*内容*/
 
