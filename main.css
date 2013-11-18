@@ -197,6 +197,7 @@ a:hover {
 }
 /*回到最上----------------------------------------------------------*/
 .top {
+	
 	margin-top: 20px,auto;
 	padding-top: 20px;
 	clear: both;
@@ -207,17 +208,36 @@ a:hover {
 	cursor: pointer;
 }
 .top .topimage {
+	position: absolute;
+	margin: 0 auto;
+	top: 7px;
+	left: 485px;
 	color: red;
 	background-image: url(image/top.png);
-	margin: 0 auto;
 	width: 54px;
 	height: 54px
 }
 .toptext {
-	margin-top: 15px;
+	position: absolute;
+	top: 80px;
+	left: 457px;
 }
 .top-hover {
 	background-color: #bbb;
+}
+.topcolor{	
+	height: 3px;
+	magrgin: 1px auto;
+	background: #f25bad;
+}
+.topweight{
+	position:relative;
+	height:123px;
+	width:1000px;
+	margin:auto;
+	top:0px;
+	left::0px;
+	background:
 }
 /*内容*/
 
