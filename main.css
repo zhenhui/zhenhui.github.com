@@ -202,7 +202,7 @@ a:hover {
 	margin-top: 20px, auto;
 	padding-top: 20px;
 	clear: both;
-	height: 120px;
+	height: 124px;
 	background-color: #ccc;
 	color: #000;
 	font-size: 22px;
@@ -225,7 +225,7 @@ a:hover {
 }
 .topweight {
 	position: absolute;
-	height: 122px;
+	height: 123px;
 	margin: auto;
 	top: 23px;
 	left: 50%;

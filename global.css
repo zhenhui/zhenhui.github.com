@@ -12,7 +12,7 @@ caption,th,td { text-align:left; font-weight:normal; }
 blockquote:before,blockquote:after,q:before,q:after { content:""; }
 blockquote,q { quotes:"" ""; }
 
-
+#header-wrapper{height:77px;}
 
 #container {
 	width:1000px;
