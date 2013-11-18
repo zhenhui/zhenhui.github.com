@@ -15,7 +15,7 @@ blockquote,q { quotes:"" ""; }
 
 
 #container {
-	width:580px;
+	width:1000px;
 	padding:10px;
 	margin:0 auto;
 	position:relative;
@@ -38,8 +38,8 @@ blockquote,q { quotes:"" ""; }
 #frame {
 	position: absolute;
 	z-index: 0;
-	width: 739px;
-	height: 341px;
+	width: 2px;
+	height: 2px;
 	top: 102px;
 	left: 55px;
 }
