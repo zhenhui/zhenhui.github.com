@@ -70,8 +70,8 @@ blockquote,q { quotes:"" ""; }
 }
 
 .slides_container a {
-	width:570px;
-	height:270px;
+	width:2px;
+	height:2px;
 	display:block;
 }
 
@@ -155,7 +155,7 @@ a:hover.download,a:active.download {
 
 #footer {
 	float:left;
-	width:580px;
+	width:2px;
 	margin-top:9px;
 	margin-bottom:9px;
 	padding:4.5px 0 18px;
