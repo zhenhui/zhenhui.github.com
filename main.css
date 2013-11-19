@@ -203,7 +203,7 @@ a:hover {
 	padding-top: 20px;
 	clear: both;
 	height: 124px;
-	width:103%;
+	width:102%;
 	background-color: #ccc;
 	color: #000;
 	font-size: 22px;
@@ -223,6 +223,7 @@ a:hover {
 	height: 2px;
 	magrgin: 1px auto;
 	background: #EC11C0;
+	width:102%;
 }
 .topweight {
 	position: absolute;
