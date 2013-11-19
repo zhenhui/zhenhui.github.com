@@ -208,6 +208,7 @@ a:hover {
 	font-size: 22px;
 	cursor: pointer;
 	position: relative;
+	border: solid 1px red;
 }
 .top .topimage {
 	background-image: url(image/top.png);
