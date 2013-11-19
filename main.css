@@ -247,9 +247,14 @@ a:hover {
 	background-image: url(image/pic4.jpg)
 }
 /*-----------------------------------IOS页面-----------------------------------------*/
-.IOS_pic {
+.IOS_pic img{
+	width:1000px;
+	height:1000px;
 }
 .demo {
 	margin: auto;
 	width: 1000px;
 }
+.pic-IOS{
+	
+	}
