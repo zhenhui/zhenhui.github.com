@@ -76,7 +76,8 @@ blockquote,q { quotes:"" ""; }
 }
 
 #slides .next {
-	left: 974px;
+	right: 0;
+	left:auto;
 }
 
 #content {
