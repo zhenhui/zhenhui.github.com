@@ -8,7 +8,7 @@ body {
 	font: 12px Tahoma;
 	margin: 0px, auto;
 	text-align: center;
-	font-family: "Microsoft YaHei", Georgia, Serif;
+	font-family: "Microsoft YaHei",Arial, Georgia, Serif;
 	color: #888;
 	min-height: 1000px;
 }
@@ -203,7 +203,7 @@ a:hover {
 	padding-top: 20px;
 	clear: both;
 	height: 124px;
-	width:102%;
+	width:102.5%;
 	background-color: #ccc;
 	color: #000;
 	font-size: 22px;
@@ -223,7 +223,7 @@ a:hover {
 	height: 2px;
 	magrgin: 1px auto;
 	background: #EC11C0;
-	width:102%;
+	width:102.5%;
 }
 .topweight {
 	position: absolute;
