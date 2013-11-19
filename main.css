@@ -219,12 +219,6 @@ a:hover {
 .top-hover {
 	background-color: #bbb;
 }
-.topcolor {
-	height: 2px;
-	magrgin: 1px auto;
-	background: #EC11C0;
-	width:102.5%;
-}
 .topweight {
 	position: absolute;
 	height: 123px;
