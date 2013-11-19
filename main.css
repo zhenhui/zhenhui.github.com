@@ -35,7 +35,7 @@ a:hover {
 }
 /*头部信息*/
 .container {
-	width: 1000px;
+	width: 1000PX;
 	margin: 0 auto;
 	font-size: 25px
 }
@@ -203,13 +203,12 @@ a:hover {
 	padding-top: 20px;
 	clear: both;
 	height: 124px;
-	width:100%;
+	width:103%;
 	background-color: #ccc;
 	color: #000;
 	font-size: 22px;
 	cursor: pointer;
 	position: relative;
-	border: solid 1px red;
 }
 .top .topimage {
 	background-image: url(image/top.png);
