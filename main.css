@@ -200,11 +200,10 @@ a:hover {
 /*回到最上----------------------------------------------------------*/
 .top {
 	margin-top: 20px, auto;
-	padding-top: 20px;
+	padding-top: 100px;
 	clear: both;
 	height: 124px;
 	width:100%;
-	background-color: #ccc;
 	color: #000;
 	font-size: 22px;
 	cursor: pointer;
@@ -217,13 +216,13 @@ a:hover {
 	margin: 0 auto;
 }
 .top-hover {
-	background-color: #bbb;
+	
 }
 .topweight {
 	position: absolute;
-	height: 123px;
+	height: 100px;
 	margin: auto;
-	top: 23px;
+	top: 130px;
 	left: 50%;
 	width: 164px;
 	margin-left: -82px;
