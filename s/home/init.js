@@ -33,7 +33,7 @@ define(function (require, exports, module) {
 
     var html = ''
     html = S.map(data, function (item) {
-        return '<div class="line"><!--分割线--></div><div class="demo1">' +
+        return '<div class="demo1">' +
             '' +
             '<a href="work_2012.html#' + item.fileName + '" title="' + item.content.replace(/\s/gmi, '') + '">' +
             '<div class="pic1" style="background: url(/image/list/' + item.fileName + ')"></div></a><div class="line"><!--分割线--></div>' +
