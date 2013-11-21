@@ -17,7 +17,7 @@ define(function (require, exports, module) {
     var data = []
     S.each(tr, function (str) {
         var obj = {}
-        var content = str.replace(/^\s+/, '').match(/(.*)[\r\n]([\s\S]+)/)
+        var content = str.replace(/^\s+/, '').match(/(.*)(?:\s+)([\s\S]+)/)
         if (content) {
             var first = content[1].split(/[，,]/)
             if (first) {
