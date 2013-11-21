@@ -11,7 +11,7 @@ define(function (require, exports, module) {
     //开始加载作品
 
     var tpl = require('/works.tpl')
-    var tr = tpl.split(/^[\s]*\n$/m)
+    var tr = tpl.split('====')
     var S = KISSY
 
     var data = []
@@ -33,10 +33,10 @@ define(function (require, exports, module) {
 
     var html = ''
     html = S.map(data, function (item) {
-        return '<div class="demo1">' +
-            '<div class="line"><!--分割线--></div>' +
+        return '<div class="line"><!--分割线--></div><div class="demo1">' +
+            '' +
             '<a href="work_2012.html#' + item.fileName + '" title="' + item.content.replace(/\s/gmi, '') + '">' +
-            '<div class="pic1" style="background: url(/image/list/' + item.fileName + ')"></div></a>' +
+            '<div class="pic1" style="background: url(/image/list/' + item.fileName + ')"></div></a><div class="line"><!--分割线--></div>' +
             '</div>'
     })
 
