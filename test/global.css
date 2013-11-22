@@ -90,6 +90,12 @@ a:hover {
   position: relative;
   margin-top: 0;
 }
+#navigation .wrapper-990 a{
+ color:#999
+}
+#navigation .wrapper-990 a:hover{
+ color:#ff3d33
+}
 #navigation h1 {
   position: absolute;
   font-size: 56px;
