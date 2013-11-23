@@ -216,7 +216,7 @@ a:hover {
 	margin: 0 auto;
 }
 .top-hover {
-	
+
 }
 .topweight {
 	position: absolute;
@@ -249,7 +249,19 @@ a:hover {
 .IOS_pic img{
 	width:1000px;
 }
+
 .demo {
-	margin: auto;
-	width: 1000px;
+    margin: auto;
+    width: 1000px;
+}
+
+#demo-wrapper .btn {
+    padding: 12px 22px;
+    margin: 12px;
+}
+
+.btn.disabled {
+    background: #ccc;
+    color: #999;
+    cursor: not-allowed;
 }
