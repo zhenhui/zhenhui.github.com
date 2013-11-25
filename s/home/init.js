@@ -21,8 +21,9 @@ define(function (require, exports, module) {
         if (content) {
             var first = content[1].split(/[，,]/)
             if (first) {
-                obj.fileName = first[0]
-                obj.tag = S.filter(first.slice(1), function (item) {
+                obj.address = first[0]
+                obj.fileName = first[1]
+                obj.tag = S.filter(first.slice(2), function (item) {
                     return S.trim(item).length > 0
                 })
             }
@@ -31,7 +32,7 @@ define(function (require, exports, module) {
         }
     })
 
-    var step = 2
+    var step = 5
     var currentPage = 0
     var currentTag = ''
 
@@ -50,7 +51,7 @@ define(function (require, exports, module) {
         var html = S.map(data, function (item) {
             return '<div class="demo1">' +
                 '' +
-                '<a href="work_2012.html#' + item.fileName + '" title="' + item.content.replace(/\s/gmi, '') + '">' +
+                '<a href="' + item.address + '" title="' + item.content.replace(/\s/gmi, '') + '">' +
                 '<div class="pic1" style="background: url(/image/list/' + item.fileName + ')"></div></a><div class="line"><!--分割线--></div>' +
                 '</div>'
         })
