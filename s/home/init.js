@@ -96,6 +96,8 @@ define(function (require, exports, module) {
     $('#tag-tab li').on('click', function () {
         var $this = $(this)
         if ($this.hasClass('active')) {
+            currentTag = ''
+            render()
             $this.siblings('li').add($this).removeClass('active').each(function (i, $li) {
                 $li = $($li)
                 $li.find('.J-tag').text($li.attr('default-text'))
