@@ -8,7 +8,7 @@
 						<p class="">作品</p>
 						<p class="sub-title">works</p>
 					</li>
-					<li class="life"><a href="http://weibo.com/u/1448622805" target="_blank">
+					<li class="life"><a href="http://www.flickr.com/photos/hangzhenhui/" target="_blank">
 						<i class="iconfont" >&#230;</i>
 						<p>生活</p>
 						<p class="sub-title">life</p></a>
