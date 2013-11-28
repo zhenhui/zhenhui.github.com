@@ -3,3 +3,6 @@
 ====
 /work_bm.html,bm.png,图标,gui设计，
 BM项目的部分图标设计 这里呈现的是团队成员共同的作品
+====
+/work_long.html,long.png,插画设计,banner设计，
+BM项目的部分图标设计 这里呈现的是团队成员共同
