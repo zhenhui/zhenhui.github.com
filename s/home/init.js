@@ -49,7 +49,7 @@ define(function (require, exports, module) {
         var data = filter()
         S.log('类目：' + currentTag + '共有' + data.length + '条数据')
         var html = S.map(data, function (item) {
-			console.log(item)
+			S.log(item)
             return '<div class="demo1">' +
                 '' +
                 '<a href="' + item.address + '" title="' + item.content.replace(/\s/gmi, '') + '">' +
@@ -57,7 +57,7 @@ define(function (require, exports, module) {
                 '</div>'
         })
 		
-		console.log(html)
+	
 
         if (currentPage <= 0) {
             currentPage = 0

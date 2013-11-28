@@ -10,7 +10,7 @@
 <!--[if lte IE 7]><script src="http://www.sjplus.cn/s/fonts/lte-ie7.js"></script><![endif]--><script src="http://g.tbcdn.cn/kissy/k/1.4.0/seed-min.js" data-config="{combine:true}"></script><script>window['hostDOMAIN']='http://www.sjplus.cn'
 window['assetsCDN']='http://www.sjplus.cn'
 window['imgCDN']='http://www.sjplus.cn'
-if(!window.console)window.console=function(){}</script><script src="http://g.tbcdn.cn/kissy/k/1.4.0/seed-min.js"></script><script id="seajsnode" src="http://www.sjplus.cn/s/sea.js"></script><script>KISSY.config({
+if(!window.console)window.console={log:function(){}}</script><script src="http://g.tbcdn.cn/kissy/k/1.4.0/seed-min.js"></script><script id="seajsnode" src="http://www.sjplus.cn/s/sea.js"></script><script>KISSY.config({
     modules: {
         'sizzle': { alias: ['node'] },
         'ajax': { alias: ['io'] },
@@ -407,7 +407,7 @@ filter: alpha(opacity=100);
                         if (!data.err) {
                             var str = ''
                             S.each(S.keys(data), function (key) {
-                                console.log(data[key])
+                                S.log(data[key])
                                 str += template.render(tpl, data[key])
                             })
                             $('#hot-user-wrapper').html(str)
@@ -422,7 +422,7 @@ filter: alpha(opacity=100);
             var count = 12
             var sumPage = 0
             function getData() {
-                console.log(page)
+                S.log(page)
                 $.ajax({
                     url: hostDOMAIN + '/design-works/latest/list',
                     dataType: 'jsonp',
@@ -459,7 +459,7 @@ filter: alpha(opacity=100);
                         id_arr: $('#J-design-works-fromid-arr').html().replace(/[\s\r\n]/gmi, '').split(/,/).join(',')
                     }
                 }).done(function (data) {
-                            console.log(data)
+                            S.log(data)
                             $('#J-design-works-fromid-container').html(template.render(tpl, data))
                         })
             }
