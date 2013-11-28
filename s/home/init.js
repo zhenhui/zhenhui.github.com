@@ -49,12 +49,15 @@ define(function (require, exports, module) {
         var data = filter()
         S.log('类目：' + currentTag + '共有' + data.length + '条数据')
         var html = S.map(data, function (item) {
+			console.log(item)
             return '<div class="demo1">' +
                 '' +
                 '<a href="' + item.address + '" title="' + item.content.replace(/\s/gmi, '') + '">' +
                 '<div class="pic1" style="background: url(/image/list/' + item.fileName + ')"></div></a><div class="line"><!--分割线--></div>' +
                 '</div>'
         })
+		
+		console.log(html)
 
         if (currentPage <= 0) {
             currentPage = 0
@@ -62,16 +65,11 @@ define(function (require, exports, module) {
         } else {
             $('.J-prev').removeClass('disabled')
         }
-
-        if (currentPage >= Math.floor(data.length / step)) {
-            currentPage = Math.floor(data.length / step)
-            $('#demo-container').html(html.slice(data.length - step))
-            $('.J-next').addClass('disabled')
-        } else {
-            $('#demo-container').html(html.slice(currentPage * step, currentPage * step + step))
-            $('.J-next').removeClass('disabled')
-        }
-
+		
+		if(data.length<step){
+			 $('#demo-container').html(html.join(''))
+			return	
+		}
     }
 
     render()
