@@ -55,8 +55,6 @@ $axure.eventManager.click('u15', function(e) {
 
 if (true) {
 
-	SetPanelState('u0', 'pd1u0','swing','right',300,'swing','right',300);
-
 }
 });
 gv_vAlignTable['u15'] = 'top';u45.tabIndex = 0;
@@ -136,7 +134,18 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u26'] = 'top';gv_vAlignTable['u65'] = 'top';gv_vAlignTable['u56'] = 'center';gv_vAlignTable['u5'] = 'top';gv_vAlignTable['u9'] = 'top';gv_vAlignTable['u72'] = 'center';gv_vAlignTable['u63'] = 'top';u67.tabIndex = 0;
+gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u26'] = 'top';gv_vAlignTable['u65'] = 'top';gv_vAlignTable['u56'] = 'center';gv_vAlignTable['u5'] = 'top';u12.tabIndex = 0;
+
+u12.style.cursor = 'pointer';
+$axure.eventManager.click('u12', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('计划.html');
+
+}
+});
+gv_vAlignTable['u9'] = 'top';gv_vAlignTable['u72'] = 'center';gv_vAlignTable['u63'] = 'top';u67.tabIndex = 0;
 
 u67.style.cursor = 'pointer';
 $axure.eventManager.click('u67', function(e) {
@@ -155,8 +164,6 @@ $axure.eventManager.click('u10', function(e) {
 if (true) {
 
 	self.location.href=$axure.globalVariableProvider.getLinkUrl('个人页面_1.html');
-
-	SetPanelState('u0', 'pd2u0','none','',500,'none','',500);
 
 }
 });

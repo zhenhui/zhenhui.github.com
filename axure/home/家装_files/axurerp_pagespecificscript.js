@@ -25,8 +25,6 @@ $axure.eventManager.click('u102', function(e) {
 
 if (true) {
 
-	SetPanelState('u87', 'pd1u87','swing','right',300,'swing','right',300);
-
 }
 });
 gv_vAlignTable['u102'] = 'top';HookHover('u225', false);
@@ -65,7 +63,18 @@ HookHover('u213', false);
 gv_vAlignTable['u41'] = 'top';HookHover('u221', false);
 gv_vAlignTable['u119'] = 'center';gv_vAlignTable['u54'] = 'center';gv_vAlignTable['u210'] = 'top';HookHover('u195', false);
 gv_vAlignTable['u258'] = 'top';gv_vAlignTable['u5'] = 'center';HookHover('u173', false);
-gv_vAlignTable['u174'] = 'top';gv_vAlignTable['u23'] = 'center';gv_vAlignTable['u182'] = 'top';gv_vAlignTable['u10'] = 'top';gv_vAlignTable['u176'] = 'top';gv_vAlignTable['u82'] = 'center';gv_vAlignTable['u36'] = 'top';gv_vAlignTable['u101'] = 'center';gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u143'] = 'center';gv_vAlignTable['u240'] = 'top';gv_vAlignTable['u74'] = 'center';gv_vAlignTable['u20'] = 'top';HookHover('u163', false);
+gv_vAlignTable['u174'] = 'top';gv_vAlignTable['u23'] = 'center';u99.tabIndex = 0;
+
+u99.style.cursor = 'pointer';
+$axure.eventManager.click('u99', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('计划.html');
+
+}
+});
+gv_vAlignTable['u182'] = 'top';gv_vAlignTable['u10'] = 'top';gv_vAlignTable['u176'] = 'top';gv_vAlignTable['u82'] = 'center';gv_vAlignTable['u36'] = 'top';gv_vAlignTable['u101'] = 'center';gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u143'] = 'center';gv_vAlignTable['u240'] = 'top';gv_vAlignTable['u74'] = 'center';gv_vAlignTable['u20'] = 'top';HookHover('u163', false);
 gv_vAlignTable['u33'] = 'top';gv_vAlignTable['u244'] = 'top';gv_vAlignTable['u92'] = 'top';gv_vAlignTable['u71'] = 'top';HookHover('u265', false);
 gv_vAlignTable['u198'] = 'top';gv_vAlignTable['u214'] = 'top';gv_vAlignTable['u43'] = 'top';gv_vAlignTable['u160'] = 'top';HookHover('u257', false);
 HookHover('u169', false);
@@ -131,8 +140,6 @@ $axure.eventManager.click('u97', function(e) {
 if (true) {
 
 	self.location.href=$axure.globalVariableProvider.getLinkUrl('个人页面_1.html');
-
-	SetPanelState('u87', 'pd2u87','none','',500,'none','',500);
 
 }
 });

@@ -108,8 +108,6 @@ if (true) {
 
 	self.location.href=$axure.globalVariableProvider.getLinkUrl('个人页面_1.html');
 
-	SetPanelState('u0', 'pd2u0','none','',500,'none','',500);
-
 }
 });
 gv_vAlignTable['u77'] = 'top';gv_vAlignTable['u144'] = 'top';gv_vAlignTable['u95'] = 'top';gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u143'] = 'center';gv_vAlignTable['u180'] = 'center';gv_vAlignTable['u74'] = 'center';gv_vAlignTable['u20'] = 'top';gv_vAlignTable['u157'] = 'top';gv_vAlignTable['u104'] = 'center';gv_vAlignTable['u92'] = 'center';u46.tabIndex = 0;
@@ -192,11 +190,20 @@ $axure.eventManager.click('u15', function(e) {
 
 if (true) {
 
-	SetPanelState('u0', 'pd1u0','swing','right',300,'swing','right',300);
+}
+});
+gv_vAlignTable['u15'] = 'top';gv_vAlignTable['u49'] = 'center';gv_vAlignTable['u85'] = 'center';gv_vAlignTable['u191'] = 'top';gv_vAlignTable['u193'] = 'center';gv_vAlignTable['u165'] = 'top';u12.tabIndex = 0;
+
+u12.style.cursor = 'pointer';
+$axure.eventManager.click('u12', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('计划.html');
 
 }
 });
-gv_vAlignTable['u15'] = 'top';gv_vAlignTable['u49'] = 'center';gv_vAlignTable['u85'] = 'center';gv_vAlignTable['u191'] = 'top';gv_vAlignTable['u193'] = 'center';gv_vAlignTable['u165'] = 'top';gv_vAlignTable['u199'] = 'center';gv_vAlignTable['u115'] = 'center';gv_vAlignTable['u59'] = 'top';gv_vAlignTable['u168'] = 'center';
+gv_vAlignTable['u199'] = 'center';gv_vAlignTable['u115'] = 'center';gv_vAlignTable['u59'] = 'top';gv_vAlignTable['u168'] = 'center';
 $axure.eventManager.mouseover('u137', function(e) {
 if (!IsTrueMouseOver('u137',e)) return;
 if (true) {
