@@ -1,13 +1,62 @@
-﻿for(var i = 0; i < 238; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
+﻿for(var i = 0; i < 235; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
 
 $axure.eventManager.pageLoad(
 function (e) {
 
 });
-gv_vAlignTable['u156'] = 'center';gv_vAlignTable['u207'] = 'center';gv_vAlignTable['u45'] = 'center';gv_vAlignTable['u161'] = 'top';gv_vAlignTable['u128'] = 'top';u222.tabIndex = 0;
 
-u222.style.cursor = 'pointer';
-$axure.eventManager.click('u222', function(e) {
+$axure.eventManager.mouseover('u122', function(e) {
+if (!IsTrueMouseOver('u122',e)) return;
+if (true) {
+
+	SetPanelVisibility('u147','hidden','fade',100);
+
+}
+});
+gv_vAlignTable['u207'] = 'center';gv_vAlignTable['u79'] = 'center';
+$axure.eventManager.focus('u4', function(e) {
+
+if ((GetWidgetText('u4')) == ('请输入')) {
+
+SetWidgetFormText('u4', '');
+
+}
+});
+
+$axure.eventManager.blur('u4', function(e) {
+
+if ((GetWidgetValueLength('u4')) == ('0')) {
+
+SetWidgetFormText('u4', '请输入');
+
+}
+else
+if ((GetWidgetValueLength('u4')) != ('0')) {
+
+SetGlobalVariableValue('text', GetFocusedWidgetText());
+
+SetWidgetFormText('u9', '' + (GetGlobalVariableValue('text')) + '');
+
+	SetPanelVisibility('u5','','fade',100);
+
+}
+});
+gv_vAlignTable['u17'] = 'center';gv_vAlignTable['u135'] = 'center';gv_vAlignTable['u42'] = 'center';gv_vAlignTable['u102'] = 'center';gv_vAlignTable['u225'] = 'center';gv_vAlignTable['u186'] = 'top';gv_vAlignTable['u48'] = 'center';
+$axure.eventManager.focus('u27', function(e) {
+
+if (true) {
+
+	SetPanelVisibility('u28','','none',500);
+
+	var obj1 = document.getElementById("u29");
+    obj1.focus();
+
+}
+});
+gv_vAlignTable['u52'] = 'center';gv_vAlignTable['u192'] = 'center';gv_vAlignTable['u110'] = 'center';u189.tabIndex = 0;
+
+u189.style.cursor = 'pointer';
+$axure.eventManager.click('u189', function(e) {
 
 if (true) {
 
@@ -15,89 +64,48 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u42'] = 'top';gv_vAlignTable['u55'] = 'center';gv_vAlignTable['u105'] = 'center';gv_vAlignTable['u27'] = 'center';gv_vAlignTable['u235'] = 'center';gv_vAlignTable['u138'] = 'center';gv_vAlignTable['u144'] = 'center';gv_vAlignTable['u65'] = 'center';
-u236.style.cursor = 'pointer';
-$axure.eventManager.click('u236', function(e) {
-
-if (true) {
-
-	SetPanelVisibility('u233','hidden','fade',100);
-
-}
-});
-gv_vAlignTable['u189'] = 'top';gv_vAlignTable['u6'] = 'center';u205.tabIndex = 0;
+u205.tabIndex = 0;
 
 u205.style.cursor = 'pointer';
 $axure.eventManager.click('u205', function(e) {
 
 if (true) {
 
-    self.location.href="resources/reload.html#" + encodeURI($axure.globalVariableProvider.getLinkUrl($axure.pageData.url));
+	SetPanelState('u151', 'pd2u151','swing','right',300,'swing','right',300);
 
 }
 });
-document.getElementById('u37_img').tabIndex = 0;
-HookHover('u37', false);
-
-u37.style.cursor = 'pointer';
-$axure.eventManager.click('u37', function(e) {
-
+gv_vAlignTable['u205'] = 'top';gv_vAlignTable['u108'] = 'center';gv_vAlignTable['u37'] = 'center';gv_vAlignTable['u184'] = 'top';
+$axure.eventManager.mouseover('u30', function(e) {
+if (!IsTrueMouseOver('u30',e)) return;
 if (true) {
 
-	SetPanelState('u0', 'pd1u0','swing','left',200,'swing','left',200);
+	SetPanelVisibility('u60','hidden','fade',100);
 
 }
 });
-
-$axure.eventManager.mouseover('u62', function(e) {
-if (!IsTrueMouseOver('u62',e)) return;
+gv_vAlignTable['u62'] = 'center';gv_vAlignTable['u21'] = 'center';gv_vAlignTable['u133'] = 'center';
+$axure.eventManager.mouseover('u88', function(e) {
+if (!IsTrueMouseOver('u88',e)) return;
 if (true) {
 
-	SetPanelVisibility('u63','','fade',100);
+	SetPanelVisibility('u89','','fade',100);
 
 }
 });
-gv_vAlignTable['u113'] = 'center';gv_vAlignTable['u21'] = 'top';
-$axure.eventManager.blur('u8', function(e) {
-
-if ((GetWidgetValueLength('u8')) != ('0')) {
-
-SetWidgetFormText('u3', '请输入');
-
-}
-else
-if ((GetWidgetValueLength('u8')) == ('0')) {
-
-	SetPanelVisibility('u4','hidden','none',100);
-
-}
-});
-gv_vAlignTable['u88'] = 'center';gv_vAlignTable['u176'] = 'center';u208.tabIndex = 0;
-
-u208.style.cursor = 'pointer';
-$axure.eventManager.click('u208', function(e) {
-
+gv_vAlignTable['u7'] = 'center';gv_vAlignTable['u164'] = 'top';
+$axure.eventManager.mouseover('u146', function(e) {
+if (!IsTrueMouseOver('u146',e)) return;
 if (true) {
 
-	SetPanelState('u154', 'pd2u154','swing','right',300,'swing','right',300);
+	SetPanelVisibility('u147','','fade',100);
 
 }
 });
-gv_vAlignTable['u208'] = 'top';gv_vAlignTable['u47'] = 'center';gv_vAlignTable['u72'] = 'top';gv_vAlignTable['u103'] = 'center';gv_vAlignTable['u99'] = 'top';gv_vAlignTable['u146'] = 'center';gv_vAlignTable['u187'] = 'top';u170.tabIndex = 0;
+u187.tabIndex = 0;
 
-u170.style.cursor = 'pointer';
-$axure.eventManager.click('u170', function(e) {
-
-if (true) {
-
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('案例.html');
-
-}
-});
-u220.tabIndex = 0;
-
-u220.style.cursor = 'pointer';
-$axure.eventManager.click('u220', function(e) {
+u187.style.cursor = 'pointer';
+$axure.eventManager.click('u187', function(e) {
 
 if (true) {
 
@@ -105,41 +113,10 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u78'] = 'center';gv_vAlignTable['u57'] = 'center';gv_vAlignTable['u231'] = 'center';gv_vAlignTable['u23'] = 'center';gv_vAlignTable['u16'] = 'top';u203.tabIndex = 0;
+gv_vAlignTable['u170'] = 'center';u220.tabIndex = 0;
 
-u203.style.cursor = 'pointer';
-$axure.eventManager.click('u203', function(e) {
-
-if (true) {
-
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('个人页面_1.html');
-
-	SetPanelState('u154', 'pd0u154','none','',500,'none','',500);
-
-}
-});
-
-$axure.eventManager.mouseover('u125', function(e) {
-if (!IsTrueMouseOver('u125',e)) return;
-if (true) {
-
-	SetPanelVisibility('u150','hidden','fade',100);
-
-}
-});
-gv_vAlignTable['u202'] = 'top';gv_vAlignTable['u41'] = 'top';
-$axure.eventManager.mouseover('u149', function(e) {
-if (!IsTrueMouseOver('u149',e)) return;
-if (true) {
-
-	SetPanelVisibility('u150','','fade',100);
-
-}
-});
-gv_vAlignTable['u210'] = 'center';u223.tabIndex = 0;
-
-u223.style.cursor = 'pointer';
-$axure.eventManager.click('u223', function(e) {
+u220.style.cursor = 'pointer';
+$axure.eventManager.click('u220', function(e) {
 
 if (true) {
 
@@ -147,84 +124,85 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u32'] = 'top';u174.tabIndex = 0;
+gv_vAlignTable['u44'] = 'center';gv_vAlignTable['u23'] = 'top';gv_vAlignTable['u125'] = 'top';u202.tabIndex = 0;
+
+u202.style.cursor = 'pointer';
+$axure.eventManager.click('u202', function(e) {
+
+if (true) {
+
+    self.location.href="resources/reload.html#" + encodeURI($axure.globalVariableProvider.getLinkUrl($axure.pageData.url));
+
+}
+});
+gv_vAlignTable['u149'] = 'center';gv_vAlignTable['u54'] = 'center';gv_vAlignTable['u210'] = 'top';gv_vAlignTable['u131'] = 'center';gv_vAlignTable['u173'] = 'center';document.getElementById('u174_img').tabIndex = 0;
 
 u174.style.cursor = 'pointer';
 $axure.eventManager.click('u174', function(e) {
 
 if (true) {
 
-	SetPanelState('u154', 'pd0u154','swing','left',300,'swing','left',300);
+	SetPanelState('u151', 'pd2u151','none','',500,'none','',500);
 
 }
 });
-gv_vAlignTable['u174'] = 'top';gv_vAlignTable['u51'] = 'center';
-$axure.eventManager.focus('u10', function(e) {
+gv_vAlignTable['u216'] = 'top';gv_vAlignTable['u85'] = 'center';gv_vAlignTable['u10'] = 'top';gv_vAlignTable['u77'] = 'center';gv_vAlignTable['u95'] = 'center';gv_vAlignTable['u75'] = 'center';gv_vAlignTable['u195'] = 'top';gv_vAlignTable['u180'] = 'top';u92.tabIndex = 0;
 
-if ((GetWidgetText('u10')) == ('请输入')) {
+u92.style.cursor = 'pointer';
+$axure.eventManager.click('u92', function(e) {
 
-SetWidgetFormText('u10', '');
+if (true) {
+
+	SetPanelVisibility('u230','','fade',100);
 
 }
 });
+gv_vAlignTable['u46'] = 'center';document.getElementById('u34_img').tabIndex = 0;
+HookHover('u34', false);
 
-$axure.eventManager.blur('u10', function(e) {
+u34.style.cursor = 'pointer';
+$axure.eventManager.click('u34', function(e) {
 
-if ((GetWidgetValueLength('u10')) == ('0')) {
+if (true) {
 
-SetWidgetFormText('u10', '请输入');
+	SetPanelState('u0', 'pd1u0','swing','left',200,'swing','left',200);
+
+}
+});
+gv_vAlignTable['u71'] = 'center';gv_vAlignTable['u98'] = 'top';gv_vAlignTable['u214'] = 'top';gv_vAlignTable['u127'] = 'top';gv_vAlignTable['u160'] = 'top';gv_vAlignTable['u56'] = 'center';gv_vAlignTable['u112'] = 'center';gv_vAlignTable['u106'] = 'center';u168.tabIndex = 0;
+
+u168.style.cursor = 'pointer';
+$axure.eventManager.click('u168', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('杂志.html');
+
+}
+});
+gv_vAlignTable['u212'] = 'top';gv_vAlignTable['u40'] = 'top';gv_vAlignTable['u139'] = 'center';gv_vAlignTable['u155'] = 'center';gv_vAlignTable['u38'] = 'top';u121.tabIndex = 0;
+
+u121.style.cursor = 'pointer';
+$axure.eventManager.click('u121', function(e) {
+
+if (true) {
+
+	SetPanelVisibility('u230','','fade',100);
+
+}
+});
+gv_vAlignTable['u67'] = 'top';gv_vAlignTable['u13'] = 'center';gv_vAlignTable['u31'] = 'top';
+$axure.eventManager.blur('u9', function(e) {
+
+if ((GetWidgetValueLength('u9')) != ('0')) {
+
+SetWidgetFormText('u4', '请输入');
 
 }
 else
-if ((GetWidgetValueLength('u10')) != ('0')) {
+if ((GetWidgetValueLength('u9')) == ('0')) {
 
-SetGlobalVariableValue('text', GetFocusedWidgetText());
-
-SetWidgetFormText('u15', '' + (GetGlobalVariableValue('text')) + '');
-
-	SetPanelVisibility('u11','','fade',100);
-
-}
-});
-gv_vAlignTable['u226'] = 'center';u153.tabIndex = 0;
-
-u153.style.cursor = 'pointer';
-$axure.eventManager.click('u153', function(e) {
-
-if (true) {
-
-	SetPanelVisibility('u233','','fade',100);
-
-}
-});
-gv_vAlignTable['u82'] = 'center';gv_vAlignTable['u101'] = 'top';u95.tabIndex = 0;
-
-u95.style.cursor = 'pointer';
-$axure.eventManager.click('u95', function(e) {
-
-if (true) {
-
-	SetPanelVisibility('u233','','fade',100);
-
-}
-});
-gv_vAlignTable['u180'] = 'center';gv_vAlignTable['u74'] = 'center';gv_vAlignTable['u123'] = 'center';gv_vAlignTable['u213'] = 'top';
-$axure.eventManager.mouseover('u33', function(e) {
-if (!IsTrueMouseOver('u33',e)) return;
-if (true) {
-
-	SetPanelVisibility('u63','hidden','fade',100);
-
-}
-});
-gv_vAlignTable['u34'] = 'top';gv_vAlignTable['u71'] = 'top';gv_vAlignTable['u198'] = 'top';gv_vAlignTable['u98'] = 'center';gv_vAlignTable['u127'] = 'center';gv_vAlignTable['u43'] = 'top';u169.tabIndex = 0;
-
-u169.style.cursor = 'pointer';
-$axure.eventManager.click('u169', function(e) {
-
-if (true) {
-
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('家装.html');
+	SetPanelVisibility('u5','hidden','none',100);
 
 }
 });
@@ -235,14 +213,34 @@ $axure.eventManager.click('u171', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('杂志.html');
+	SetPanelState('u151', 'pd0u151','swing','left',300,'swing','left',300);
 
 }
 });
-u168.tabIndex = 0;
+gv_vAlignTable['u171'] = 'top';gv_vAlignTable['u228'] = 'center';gv_vAlignTable['u97'] = 'top';u63.tabIndex = 0;
 
-u168.style.cursor = 'pointer';
-$axure.eventManager.click('u168', function(e) {
+u63.style.cursor = 'pointer';
+$axure.eventManager.click('u63', function(e) {
+
+if (true) {
+
+	SetPanelVisibility('u230','','fade',100);
+
+}
+});
+gv_vAlignTable['u124'] = 'center';gv_vAlignTable['u50'] = 'center';gv_vAlignTable['u81'] = 'center';gv_vAlignTable['u177'] = 'center';
+$axure.eventManager.mouseover('u64', function(e) {
+if (!IsTrueMouseOver('u64',e)) return;
+if (true) {
+
+	SetPanelVisibility('u89','hidden','fade',100);
+
+}
+});
+gv_vAlignTable['u73'] = 'center';gv_vAlignTable['u104'] = 'center';gv_vAlignTable['u26'] = 'top';u217.tabIndex = 0;
+
+u217.style.cursor = 'pointer';
+$axure.eventManager.click('u217', function(e) {
 
 if (true) {
 
@@ -250,19 +248,10 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u53'] = 'center';gv_vAlignTable['u40'] = 'center';gv_vAlignTable['u38'] = 'center';gv_vAlignTable['u109'] = 'center';
-$axure.eventManager.mouseover('u67', function(e) {
-if (!IsTrueMouseOver('u67',e)) return;
-if (true) {
+u167.tabIndex = 0;
 
-	SetPanelVisibility('u92','hidden','fade',100);
-
-}
-});
-u192.tabIndex = 0;
-
-u192.style.cursor = 'pointer';
-$axure.eventManager.click('u192', function(e) {
+u167.style.cursor = 'pointer';
+$axure.eventManager.click('u167', function(e) {
 
 if (true) {
 
@@ -270,106 +259,21 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u13'] = 'center';gv_vAlignTable['u31'] = 'top';gv_vAlignTable['u9'] = 'top';gv_vAlignTable['u84'] = 'center';gv_vAlignTable['u195'] = 'center';gv_vAlignTable['u228'] = 'center';u124.tabIndex = 0;
+gv_vAlignTable['u91'] = 'center';gv_vAlignTable['u19'] = 'top';u219.tabIndex = 0;
 
-u124.style.cursor = 'pointer';
-$axure.eventManager.click('u124', function(e) {
-
-if (true) {
-
-	SetPanelVisibility('u233','','fade',100);
-
-}
-});
-gv_vAlignTable['u76'] = 'center';gv_vAlignTable['u134'] = 'center';document.getElementById('u177_img').tabIndex = 0;
-
-u177.style.cursor = 'pointer';
-$axure.eventManager.click('u177', function(e) {
+u219.style.cursor = 'pointer';
+$axure.eventManager.click('u219', function(e) {
 
 if (true) {
 
-	SetPanelState('u154', 'pd2u154','none','',500,'none','',500);
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('案例.html');
 
 }
 });
-gv_vAlignTable['u94'] = 'center';gv_vAlignTable['u185'] = 'top';gv_vAlignTable['u217'] = 'top';gv_vAlignTable['u167'] = 'top';
-$axure.eventManager.mouseover('u91', function(e) {
-if (!IsTrueMouseOver('u91',e)) return;
-if (true) {
+u188.tabIndex = 0;
 
-	SetPanelVisibility('u92','','fade',100);
-
-}
-});
-gv_vAlignTable['u19'] = 'center';gv_vAlignTable['u70'] = 'top';gv_vAlignTable['u219'] = 'top';gv_vAlignTable['u140'] = 'center';gv_vAlignTable['u117'] = 'center';u190.tabIndex = 0;
-
-u190.style.cursor = 'pointer';
-$axure.eventManager.click('u190', function(e) {
-
-if (true) {
-
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('首页.html');
-
-}
-});
-gv_vAlignTable['u136'] = 'center';gv_vAlignTable['u29'] = 'top';gv_vAlignTable['u142'] = 'center';gv_vAlignTable['u173'] = 'center';gv_vAlignTable['u129'] = 'top';gv_vAlignTable['u86'] = 'center';gv_vAlignTable['u183'] = 'top';
-u237.style.cursor = 'pointer';
-$axure.eventManager.click('u237', function(e) {
-
-if (true) {
-
-	SetPanelVisibility('u233','hidden','fade',100);
-
-}
-});
-gv_vAlignTable['u111'] = 'center';u66.tabIndex = 0;
-
-u66.style.cursor = 'pointer';
-$axure.eventManager.click('u66', function(e) {
-
-if (true) {
-
-	SetPanelVisibility('u233','','fade',100);
-
-}
-});
-gv_vAlignTable['u25'] = 'top';gv_vAlignTable['u178'] = 'center';
-$axure.eventManager.mouseover('u96', function(e) {
-if (!IsTrueMouseOver('u96',e)) return;
-if (true) {
-
-	SetPanelVisibility('u121','hidden','fade',100);
-
-}
-});
-
-$axure.eventManager.blur('u15', function(e) {
-
-if ((GetWidgetValueLength('u15')) != ('0')) {
-
-SetWidgetFormText('u10', '请输入');
-
-}
-else
-if ((GetWidgetValueLength('u15')) == ('0')) {
-
-	SetPanelVisibility('u11','hidden','none',100);
-
-}
-});
-gv_vAlignTable['u49'] = 'center';
-$axure.eventManager.mouseover('u120', function(e) {
-if (!IsTrueMouseOver('u120',e)) return;
-if (true) {
-
-	SetPanelVisibility('u121','','fade',100);
-
-}
-});
-gv_vAlignTable['u163'] = 'top';gv_vAlignTable['u80'] = 'center';gv_vAlignTable['u1'] = 'top';u191.tabIndex = 0;
-
-u191.style.cursor = 'pointer';
-$axure.eventManager.click('u191', function(e) {
+u188.style.cursor = 'pointer';
+$axure.eventManager.click('u188', function(e) {
 
 if (true) {
 
@@ -377,10 +281,19 @@ if (true) {
 
 }
 });
-u193.tabIndex = 0;
+gv_vAlignTable['u162'] = 'top';gv_vAlignTable['u204'] = 'center';
+$axure.eventManager.mouseover('u117', function(e) {
+if (!IsTrueMouseOver('u117',e)) return;
+if (true) {
 
-u193.style.cursor = 'pointer';
-$axure.eventManager.click('u193', function(e) {
+	SetPanelVisibility('u118','','fade',100);
+
+}
+});
+u190.tabIndex = 0;
+
+u190.style.cursor = 'pointer';
+$axure.eventManager.click('u190', function(e) {
 
 if (true) {
 
@@ -388,7 +301,104 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u165'] = 'top';gv_vAlignTable['u130'] = 'top';gv_vAlignTable['u200'] = 'top';gv_vAlignTable['u115'] = 'center';gv_vAlignTable['u59'] = 'center';gv_vAlignTable['u215'] = 'top';u2.tabIndex = 0;
+gv_vAlignTable['u68'] = 'top';
+$axure.eventManager.blur('u29', function(e) {
+
+if ((GetWidgetValueLength('u29')) == ('0')) {
+
+	SetPanelVisibility('u28','hidden','fade',100);
+
+}
+else
+if ((GetWidgetValueLength('u29')) != ('0')) {
+
+}
+});
+gv_vAlignTable['u141'] = 'center';
+u234.style.cursor = 'pointer';
+$axure.eventManager.click('u234', function(e) {
+
+if (true) {
+
+	SetPanelVisibility('u230','hidden','fade',100);
+
+}
+});
+gv_vAlignTable['u175'] = 'center';u150.tabIndex = 0;
+
+u150.style.cursor = 'pointer';
+$axure.eventManager.click('u150', function(e) {
+
+if (true) {
+
+	SetPanelVisibility('u230','','fade',100);
+
+}
+});
+gv_vAlignTable['u129'] = 'center';gv_vAlignTable['u182'] = 'top';gv_vAlignTable['u39'] = 'top';gv_vAlignTable['u66'] = 'center';gv_vAlignTable['u153'] = 'center';gv_vAlignTable['u25'] = 'top';gv_vAlignTable['u83'] = 'center';u229.tabIndex = 0;
+
+u229.style.cursor = 'pointer';
+$axure.eventManager.click('u229', function(e) {
+
+if (true) {
+
+	SetPanelVisibility('u230','','fade',100);
+
+}
+});
+gv_vAlignTable['u96'] = 'top';gv_vAlignTable['u15'] = 'top';gv_vAlignTable['u120'] = 'center';
+u233.style.cursor = 'pointer';
+$axure.eventManager.click('u233', function(e) {
+
+if (true) {
+
+	SetPanelVisibility('u230','hidden','fade',100);
+
+}
+});
+gv_vAlignTable['u1'] = 'top';
+$axure.eventManager.mouseover('u93', function(e) {
+if (!IsTrueMouseOver('u93',e)) return;
+if (true) {
+
+	SetPanelVisibility('u118','hidden','fade',100);
+
+}
+});
+gv_vAlignTable['u223'] = 'center';u165.tabIndex = 0;
+
+u165.style.cursor = 'pointer';
+$axure.eventManager.click('u165', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('首页.html');
+
+}
+});
+u200.tabIndex = 0;
+
+u200.style.cursor = 'pointer';
+$axure.eventManager.click('u200', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('个人页面_1.html');
+
+	SetPanelState('u151', 'pd0u151','none','',500,'none','',500);
+
+}
+});
+gv_vAlignTable['u199'] = 'top';
+$axure.eventManager.mouseover('u59', function(e) {
+if (!IsTrueMouseOver('u59',e)) return;
+if (true) {
+
+	SetPanelVisibility('u60','','fade',100);
+
+}
+});
+gv_vAlignTable['u137'] = 'center';u2.tabIndex = 0;
 
 u2.style.cursor = 'pointer';
 $axure.eventManager.click('u2', function(e) {
@@ -399,21 +409,10 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u158'] = 'center';gv_vAlignTable['u100'] = 'top';gv_vAlignTable['u152'] = 'center';u232.tabIndex = 0;
+gv_vAlignTable['u158'] = 'top';gv_vAlignTable['u100'] = 'center';gv_vAlignTable['u143'] = 'center';gv_vAlignTable['u232'] = 'center';gv_vAlignTable['u35'] = 'center';gv_vAlignTable['u69'] = 'top';gv_vAlignTable['u197'] = 'top';u218.tabIndex = 0;
 
-u232.style.cursor = 'pointer';
-$axure.eventManager.click('u232', function(e) {
-
-if (true) {
-
-	SetPanelVisibility('u233','','fade',100);
-
-}
-});
-gv_vAlignTable['u107'] = 'center';u221.tabIndex = 0;
-
-u221.style.cursor = 'pointer';
-$axure.eventManager.click('u221', function(e) {
+u218.style.cursor = 'pointer';
+$axure.eventManager.click('u218', function(e) {
 
 if (true) {
 
@@ -421,32 +420,15 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u69'] = 'center';
-$axure.eventManager.focus('u3', function(e) {
+gv_vAlignTable['u114'] = 'center';u166.tabIndex = 0;
 
-if ((GetWidgetText('u3')) == ('请输入')) {
+u166.style.cursor = 'pointer';
+$axure.eventManager.click('u166', function(e) {
 
-SetWidgetFormText('u3', '');
+if (true) {
 
-}
-});
-
-$axure.eventManager.blur('u3', function(e) {
-
-if ((GetWidgetValueLength('u3')) == ('0')) {
-
-SetWidgetFormText('u3', '请输入');
-
-}
-else
-if ((GetWidgetValueLength('u3')) != ('0')) {
-
-SetGlobalVariableValue('text', GetFocusedWidgetText());
-
-SetWidgetFormText('u8', '' + (GetGlobalVariableValue('text')) + '');
-
-	SetPanelVisibility('u4','','fade',100);
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('家装.html');
 
 }
 });
-gv_vAlignTable['u132'] = 'center';
+gv_vAlignTable['u3'] = 'top';gv_vAlignTable['u126'] = 'top';
