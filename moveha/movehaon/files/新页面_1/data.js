@@ -1,0 +1,36 @@
+﻿$axure.loadCurrentPage({
+  "url":"新页面_1.html",
+  "generationDate":new Date(1397918776651.18),
+  "isCanvasEnabled":false,
+  "variables":["shaixuan"],
+  "page":{
+    "packageId":"ffe39a9293404e8ab3f354bf592890d3",
+    "type":"Axure:Page",
+    "name":"新页面 1",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[]}},
+  "masters":{
+},
+  "objectPaths":{
+}});
