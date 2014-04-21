@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e889552-07bf-4fcc-b14c-5f064d338a30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/moveha/account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/moveha/history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/history.html" afterPath="$PROJECT_DIR$/moveha/history.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/moveha.html" afterPath="$PROJECT_DIR$/moveha/moveha.html" />
     </list>
     <ignored path="zhenhui.github.com.iws" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="moveha.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moveha/moveha.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="25" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="779">
+            <state line="58" column="33" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-4.714286" vertical-offset="134" max-vertical-offset="836">
               <folding>
                 <element signature="tag#style#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -38,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="history.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="history.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/moveha/history.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="13" selection-start="672" selection-end="672" vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="589">
+            <state line="31" column="35" selection-start="601" selection-end="601" vertical-scroll-proportion="0.2977208" vertical-offset="0" max-vertical-offset="702">
               <folding>
                 <element signature="tag#style#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -49,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="account.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moveha/account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="126" selection-end="126" vertical-scroll-proportion="0.21652421" vertical-offset="0" max-vertical-offset="702">
+            <state line="8" column="8" selection-start="126" selection-end="126" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="437">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -82,9 +81,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/moveha/account.html" />
         <option value="$PROJECT_DIR$/moveha/moveha.html" />
         <option value="$PROJECT_DIR$/moveha/history.html" />
-        <option value="$PROJECT_DIR$/moveha/account.html" />
       </list>
     </option>
   </component>
@@ -263,24 +262,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/moveha/moveha.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="779">
-          <folding>
-            <element signature="tag#style#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moveha/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="672" selection-end="672" vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="589">
-          <folding>
-            <element signature="tag#style#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moveha/Details.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -295,9 +276,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/moveha/account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="126" selection-end="126" vertical-scroll-proportion="0.21652421" vertical-offset="0" max-vertical-offset="702">
+        <state line="8" column="8" selection-start="126" selection-end="126" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="437">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moveha/moveha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="33" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-4.714286" vertical-offset="134" max-vertical-offset="836">
+          <folding>
+            <element signature="tag#style#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moveha/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="35" selection-start="601" selection-end="601" vertical-scroll-proportion="0.2977208" vertical-offset="0" max-vertical-offset="702">
+          <folding>
+            <element signature="tag#style#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
