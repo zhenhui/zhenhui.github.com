@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"index.html",
-  "generationDate":new Date(1397918773214.5),
+  "generationDate":new Date(1398167862854.91),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -71,77 +71,6 @@
           "images":{
             "normal~":"images/index/u0.png"}},
 {
-          "id":"837da42076a144d9bd85127ca7fa0de7",
-          "label":"",
-          "type":"textBox",
-          "styleType":"textBox",
-          "visible":true,
-          "style":{
-            "stateStyles":{
-              "hint":{
-                "foreGroundFill":{
-                  "fillType":"solid",
-                  "color":0xFFCCCCCC,
-                  "opacity":1}}},
-            "location":{
-              "x":270,
-              "y":260},
-            "size":{
-              "width":500,
-              "height":45}},
-          "adaptiveStyles":{
-},
-          "interactionMap":{
-            "onTextChange":{
-              "description":"OnTextChange",
-              "cases":[{
-                  "description":"用例 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"fadeWidget",
-                      "description":"显示 渐进提示 淡入淡出 300 毫秒",
-                      "objectsToFades":[{
-                          "objectPath":["5736eb2468ae4e47973eb498d631f4e2"],
-                          "fadeInfo":{
-                            "fadeType":"show",
-                            "options":{
-                              "easing":"fade",
-                              "duration":300,
-                              "showType":"none"}}}]}]}]},
-            "onLostFocus":{
-              "description":"OnLostFocus",
-              "cases":[{
-                  "description":"用例 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"fadeWidget",
-                      "description":"隐藏 渐进提示 淡入淡出 300 毫秒",
-                      "objectsToFades":[{
-                          "objectPath":["5736eb2468ae4e47973eb498d631f4e2"],
-                          "fadeInfo":{
-                            "fadeType":"hide",
-                            "options":{
-                              "easing":"fade",
-                              "duration":300,
-                              "showType":"none"}}}]}]}]}},
-          "tabbable":true,
-          "placeholderText":"tell me your school , I will find new house for you !!"},
-{
-          "id":"8c34a1c9d66d42efa1ea5820fc1649a9",
-          "label":"",
-          "type":"button",
-          "styleType":"button",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":660,
-              "y":270},
-            "size":{
-              "width":100,
-              "height":25}},
-          "adaptiveStyles":{
-}},
-{
           "id":"578182018ff046518ddeea2100f0c2f6",
           "label":"",
           "type":"buttonShape",
@@ -187,7 +116,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/index/u4.png"}},
+            "normal~":"images/index/u2.png"}},
 {
           "id":"f74a5a9ac4714ff99cb873a0fe7e53e1",
           "label":"",
@@ -362,7 +291,7 @@
           "visible":true,
           "style":{
             "location":{
-              "x":270,
+              "x":651,
               "y":315},
             "size":{
               "width":195,
@@ -378,7 +307,7 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":270,
+                  "x":651,
                   "y":315},
                 "size":{
                   "width":195,
@@ -388,70 +317,195 @@
           "images":{
             "normal~":"resources/images/transparent.gif"}},
 {
-          "id":"5736eb2468ae4e47973eb498d631f4e2",
-          "label":"渐进提示",
-          "type":"listBox",
-          "styleType":"listBox",
-          "visible":false,
+          "id":"8bbc87f65d9c400598c2bc607e839400",
+          "label":"",
+          "type":"referenceDiagramObject",
+          "styleType":"referenceDiagramObject",
+          "visible":true,
           "style":{
             "location":{
-              "x":270,
-              "y":305},
-            "size":{
-              "width":500,
-              "height":100},
-            "visible":false},
+              "x":126.5,
+              "y":264}},
           "adaptiveStyles":{
 },
-          "interactionMap":{
-            "onFocus":{
-              "description":"OnFocus",
-              "cases":[{
-                  "description":"用例 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"在 当前窗口 打开 search list",
-                      "target":{
-                        "targetType":"page",
-                        "url":"search_list.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]}]}},
-          "tabbable":true}]}},
+          "masterId":"910632d876054e9daba5e1ff1427cf71"}]}},
   "masters":{
+    "910632d876054e9daba5e1ff1427cf71":{
+      "packageId":"910632d876054e9daba5e1ff1427cf71",
+      "type":"Axure:Master",
+      "name":"search",
+      "notes":{
 },
+      "style":{
+        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+        "pageAlignment":"near",
+        "fill":{
+          "fillType":"solid",
+          "color":0xFFFFFFFF},
+        "image":null,
+        "imageHorizontalAlignment":"near",
+        "imageVerticalAlignment":"near",
+        "imageRepeat":"auto",
+        "favicon":null,
+        "sketchFactor":"0",
+        "colorStyle":"appliedColor",
+        "fontName":"应用字体",
+        "borderWidth":"0"},
+      "adaptiveStyles":{
+},
+      "interactionMap":{
+},
+      "diagram":{
+        "objects":[{
+            "id":"90ed9246fe554982af88c3bf9d3428b7",
+            "label":"",
+            "type":"textBox",
+            "styleType":"textBox",
+            "visible":true,
+            "style":{
+              "stateStyles":{
+                "hint":{
+                  "foreGroundFill":{
+                    "fillType":"solid",
+                    "color":0xFFCCCCCC,
+                    "opacity":1}}},
+              "size":{
+                "width":720,
+                "height":45}},
+            "adaptiveStyles":{
+},
+            "interactionMap":{
+              "onTextChange":{
+                "description":"OnTextChange",
+                "cases":[{
+                    "description":"用例 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"fadeWidget",
+                        "description":"显示 渐进提示 淡入淡出 300 毫秒",
+                        "objectsToFades":[{
+                            "objectPath":["f60087697af14281a617c88104cf67de"],
+                            "fadeInfo":{
+                              "fadeType":"show",
+                              "options":{
+                                "easing":"fade",
+                                "duration":300,
+                                "showType":"none"}}}]}]}]},
+              "onLostFocus":{
+                "description":"OnLostFocus",
+                "cases":[{
+                    "description":"用例 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"fadeWidget",
+                        "description":"隐藏 渐进提示 淡入淡出 300 毫秒",
+                        "objectsToFades":[{
+                            "objectPath":["f60087697af14281a617c88104cf67de"],
+                            "fadeInfo":{
+                              "fadeType":"hide",
+                              "options":{
+                                "easing":"fade",
+                                "duration":300,
+                                "showType":"none"}}}]}]}]}},
+            "tabbable":true,
+            "placeholderText":"tell me your school , I will find new house for you !!"},
+{
+            "id":"ee1dc63a43dd419e81f512517205750b",
+            "label":"",
+            "type":"button",
+            "styleType":"button",
+            "visible":true,
+            "style":{
+              "location":{
+                "x":610,
+                "y":10},
+              "size":{
+                "width":100,
+                "height":25}},
+            "adaptiveStyles":{
+}},
+{
+            "id":"f60087697af14281a617c88104cf67de",
+            "label":"渐进提示",
+            "type":"listBox",
+            "styleType":"listBox",
+            "visible":false,
+            "style":{
+              "location":{
+                "x":0,
+                "y":45},
+              "size":{
+                "width":500,
+                "height":100},
+              "visible":false},
+            "adaptiveStyles":{
+},
+            "interactionMap":{
+              "onFocus":{
+                "description":"OnFocus",
+                "cases":[{
+                    "description":"用例 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 search list",
+                        "target":{
+                          "targetType":"page",
+                          "url":"search_list.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true},
+{
+            "id":"df85b2b91a494b7ca5b94ef47e1bd92e",
+            "label":"",
+            "type":"comboBox",
+            "styleType":"comboBox",
+            "visible":true,
+            "style":{
+              "location":{
+                "x":500,
+                "y":13},
+              "size":{
+                "width":100,
+                "height":22}},
+            "adaptiveStyles":{
+}}]}}},
   "objectPaths":{
     "321e832764dc46dd896ad05249426164":{
       "scriptId":"u0"},
     "dfaa006e5bbd402a940024ccc08f2011":{
       "scriptId":"u1"},
-    "837da42076a144d9bd85127ca7fa0de7":{
-      "scriptId":"u2"},
-    "8c34a1c9d66d42efa1ea5820fc1649a9":{
-      "scriptId":"u3"},
     "578182018ff046518ddeea2100f0c2f6":{
-      "scriptId":"u4"},
+      "scriptId":"u2"},
     "85f55211fe794ee9952e85edef6757a4":{
-      "scriptId":"u5"},
+      "scriptId":"u3"},
     "f74a5a9ac4714ff99cb873a0fe7e53e1":{
-      "scriptId":"u6"},
+      "scriptId":"u4"},
     "5324f334b00a40848247ad90fc42b604":{
-      "scriptId":"u7"},
+      "scriptId":"u5"},
     "7e9296c3f96e459fa4ce93f10191df71":{
-      "scriptId":"u8"},
+      "scriptId":"u6"},
     "975ad90186c944878fc6a346d6d88b6c":{
-      "scriptId":"u9"},
+      "scriptId":"u7"},
     "6f62e3a8cb294a0ea4da62a356f02ccd":{
-      "scriptId":"u10"},
+      "scriptId":"u8"},
     "4298f9e9524b42cbadeae17346884d43":{
-      "scriptId":"u11"},
+      "scriptId":"u9"},
     "fda723548c0740ada32efa0c2616e123":{
-      "scriptId":"u12"},
+      "scriptId":"u10"},
     "7ea739e6240a4bd99a6a852bddada962":{
-      "scriptId":"u13"},
+      "scriptId":"u11"},
     "878e66929e464957aa457865c9db3834":{
-      "scriptId":"u14"},
+      "scriptId":"u12"},
     "dd1d8804fe1e4b10a3c96dae2ba4c3b2":{
-      "scriptId":"u15"},
-    "5736eb2468ae4e47973eb498d631f4e2":{
-      "scriptId":"u16"}}});
+      "scriptId":"u13"},
+    "8bbc87f65d9c400598c2bc607e839400":{
+      "scriptId":"u14",
+      "90ed9246fe554982af88c3bf9d3428b7":{
+        "scriptId":"u15"},
+      "ee1dc63a43dd419e81f512517205750b":{
+        "scriptId":"u16"},
+      "f60087697af14281a617c88104cf67de":{
+        "scriptId":"u17"},
+      "df85b2b91a494b7ca5b94ef47e1bd92e":{
+        "scriptId":"u18"}}}});

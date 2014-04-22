@@ -17,10 +17,6 @@
         "type":"Wireframe",
         "url":"index.html"},
 {
-        "pageName":"Post",
-        "type":"Wireframe",
-        "url":"post.html"},
-{
         "pageName":"search list",
         "type":"Wireframe",
         "url":"search_list.html",
@@ -41,25 +37,25 @@
             "type":"Wireframe",
             "url":"check_availablity.html"}]},
 {
-        "pageName":"新页面 1",
-        "type":"Wireframe",
-        "url":"新页面_1.html"},
-{
         "pageName":"account",
         "type":"Wireframe",
-        "url":"account.html",
+        "url":"account.html"},
+{
+        "pageName":"old",
+        "type":"Wireframe",
+        "url":"old.html",
         "children":[{
             "pageName":"something",
             "type":"Wireframe",
-            "url":"something.html"}]},
+            "url":"something.html"},
 {
-        "pageName":"Post place",
-        "type":"Wireframe",
-        "url":"post_place.html",
-        "children":[{
-            "pageName":"new post",
+            "pageName":"Post place",
             "type":"Wireframe",
-            "url":"new_post.html"}]},
+            "url":"post_place.html"}]},
+{
+        "pageName":"new post",
+        "type":"Wireframe",
+        "url":"new_post.html"},
 {
         "pageName":"sign up",
         "type":"Wireframe",
@@ -67,7 +63,23 @@
 {
         "pageName":"NoList",
         "type":"Wireframe",
-        "url":"nolist.html"}]},
+        "url":"nolist.html"},
+{
+        "pageName":"Fast channel",
+        "type":"Wireframe",
+        "url":"fast_channel.html"},
+{
+        "pageName":"join us",
+        "type":"Wireframe",
+        "url":"join_us.html"},
+{
+        "pageName":"Air s",
+        "type":"Wireframe",
+        "url":"air_s.html"},
+{
+        "pageName":"About",
+        "type":"Wireframe",
+        "url":"about.html"}]},
   "globalVariables":{
     "shaixuan":""},
   "defaultAdaptiveView":{

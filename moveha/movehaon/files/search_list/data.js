@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"search_list.html",
-  "generationDate":new Date(1397918774085.67),
+  "generationDate":new Date(1398167863157.94),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -1301,7 +1301,7 @@
                   "style":{
                     "size":{
                       "width":250,
-                      "height":250},
+                      "height":320},
                     "borderFill":{
                       "fillType":"solid",
                       "color":0xFFCCCCCC}},
@@ -1318,7 +1318,7 @@
                       "style":{
                         "size":{
                           "width":250,
-                          "height":250},
+                          "height":320},
                         "borderFill":{
                           "fillType":"solid",
                           "color":0xFFCCCCCC}},
@@ -1457,7 +1457,7 @@
                   "style":{
                     "location":{
                       "x":50,
-                      "y":150},
+                      "y":210},
                     "size":{
                       "width":170,
                       "height":16}},
@@ -1474,7 +1474,7 @@
                       "style":{
                         "location":{
                           "x":50,
-                          "y":150},
+                          "y":210},
                         "size":{
                           "width":170,
                           "height":16}},
@@ -1490,7 +1490,7 @@
                   "style":{
                     "location":{
                       "x":41,
-                      "y":210},
+                      "y":270},
                     "size":{
                       "width":59,
                       "height":25}},
@@ -1506,7 +1506,7 @@
                   "style":{
                     "location":{
                       "x":121,
-                      "y":210},
+                      "y":270},
                     "size":{
                       "width":59,
                       "height":25}},
@@ -1550,7 +1550,7 @@
                   "style":{
                     "location":{
                       "x":20,
-                      "y":180},
+                      "y":240},
                     "size":{
                       "width":200,
                       "height":10},
@@ -1562,7 +1562,23 @@
                   "images":{
                     "start~":"resources/images/transparent.gif",
                     "end~":"resources/images/transparent.gif",
-                    "line~":"images/search_list/u69_line.png"}}]}]}]}},
+                    "line~":"images/search_list/u69_line.png"}},
+{
+                  "id":"eb850e64ba67421ea2550fa486f8ed8b",
+                  "label":"",
+                  "parentDynamicPanel":"359c9e9f90dd42d0aa4a79c81c38621e",
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":110,
+                      "y":149},
+                    "size":{
+                      "width":110,
+                      "height":22}},
+                  "adaptiveStyles":{
+}}]}]}]}},
   "masters":{
 },
   "objectPaths":{
@@ -1705,4 +1721,6 @@
     "dcb438038cee4478afcca0704429a531":{
       "scriptId":"u68"},
     "d8769564d24c45de92c0557e9e391127":{
-      "scriptId":"u69"}}});
+      "scriptId":"u69"},
+    "eb850e64ba67421ea2550fa486f8ed8b":{
+      "scriptId":"u70"}}});

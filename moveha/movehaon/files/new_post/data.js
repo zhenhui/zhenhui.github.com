@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"new_post.html",
-  "generationDate":new Date(1397918779883.83),
+  "generationDate":new Date(1398167867218.35),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -732,7 +732,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/new_post/u37.png"}},
+            "normal~":"images/account/u26.png"}},
 {
           "id":"146bb1661eb145ad9625f6e8a4995bf6",
           "label":"",
@@ -820,7 +820,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/new_post/u41.png"}},
+            "normal~":"images/account/u30.png"}},
 {
           "id":"4e03271b0dcc44cf808596708e46e6e3",
           "label":"",
@@ -873,7 +873,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/new_post/u43.png"}},
+            "normal~":"images/account/u32.png"}},
 {
           "id":"e83fe11d783e431587f4e174db1dd0f7",
           "label":"",
@@ -1277,7 +1277,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/new_post/u37.png"}},
+            "normal~":"images/account/u26.png"}},
 {
           "id":"c03b61b11f504a73ab764eb23e82b5f3",
           "label":"",
@@ -1365,7 +1365,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/new_post/u41.png"}},
+            "normal~":"images/account/u30.png"}},
 {
           "id":"be779bdcf00d4e738619142935a4c793",
           "label":"",
@@ -1418,7 +1418,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/new_post/u43.png"}},
+            "normal~":"images/account/u32.png"}},
 {
           "id":"3bae1a881cc741da8384ba241319c4c7",
           "label":"",
