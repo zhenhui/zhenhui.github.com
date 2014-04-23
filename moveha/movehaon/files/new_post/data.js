@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"new_post.html",
-  "generationDate":new Date(1398167867218.35),
+  "generationDate":new Date(1398254196590.27),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -2161,7 +2161,7 @@
               "y":2100},
             "size":{
               "width":540,
-              "height":560},
+              "height":660},
             "borderFill":{
               "fillType":"solid",
               "color":0xFFCCCCCC}},
@@ -2180,14 +2180,14 @@
                   "y":2100},
                 "size":{
                   "width":540,
-                  "height":560},
+                  "height":660},
                 "borderFill":{
                   "fillType":"solid",
                   "color":0xFFCCCCCC}},
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/new_post/u17.png"}},
+            "normal~":"images/new_post/u114.png"}},
 {
           "id":"449d1d0859784990880e23bc0aa415cd",
           "label":"",
@@ -2301,7 +2301,7 @@
           "style":{
             "location":{
               "x":310,
-              "y":2580},
+              "y":2700},
             "size":{
               "width":100,
               "height":25}},
@@ -2316,7 +2316,7 @@
           "style":{
             "location":{
               "x":162,
-              "y":2580},
+              "y":2700},
             "size":{
               "width":100,
               "height":25}},
@@ -2655,7 +2655,7 @@
           "style":{
             "location":{
               "x":20,
-              "y":2720},
+              "y":2840},
             "size":{
               "width":540,
               "height":310},
@@ -2674,7 +2674,7 @@
               "style":{
                 "location":{
                   "x":20,
-                  "y":2720},
+                  "y":2840},
                 "size":{
                   "width":540,
                   "height":310},
@@ -2694,7 +2694,7 @@
           "style":{
             "location":{
               "x":355,
-              "y":2605},
+              "y":2725},
             "size":{
               "width":10,
               "height":95}},
@@ -2716,7 +2716,7 @@
             "fontWeight":"700",
             "location":{
               "x":204,
-              "y":2829},
+              "y":2949},
             "size":{
               "width":200,
               "height":22}},
@@ -2735,7 +2735,7 @@
                 "fontWeight":"700",
                 "location":{
                   "x":204,
-                  "y":2829},
+                  "y":2949},
                 "size":{
                   "width":200,
                   "height":22}},
@@ -2752,7 +2752,7 @@
           "style":{
             "location":{
               "x":204,
-              "y":2861},
+              "y":2981},
             "size":{
               "width":300,
               "height":48}},
@@ -2768,7 +2768,7 @@
               "style":{
                 "location":{
                   "x":204,
-                  "y":2861},
+                  "y":2981},
                 "size":{
                   "width":300,
                   "height":48}},
@@ -2785,7 +2785,7 @@
           "style":{
             "location":{
               "x":90,
-              "y":2821},
+              "y":2941},
             "size":{
               "width":94,
               "height":89}},
@@ -2801,7 +2801,7 @@
               "style":{
                 "location":{
                   "x":90,
-                  "y":2821},
+                  "y":2941},
                 "size":{
                   "width":94,
                   "height":89}},
@@ -3393,7 +3393,64 @@
               "width":137,
               "height":29}},
           "adaptiveStyles":{
-}}]}},
+}},
+{
+          "id":"a68a7a93bb5a4384907d1b4bcf18fe52",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "lineSpacing":"48px",
+            "location":{
+              "x":84,
+              "y":2523},
+            "size":{
+              "width":66,
+              "height":48}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c5c93bcf09534210acf5fa5d87cc4fb1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "lineSpacing":"48px",
+                "location":{
+                  "x":84,
+                  "y":2523},
+                "size":{
+                  "width":66,
+                  "height":48}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"423e492beed94286bb2c9631745eefde",
+          "label":"",
+          "type":"textArea",
+          "styleType":"textArea",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "hint":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC,
+                  "opacity":1}}},
+            "location":{
+              "x":165,
+              "y":2540},
+            "size":{
+              "width":200,
+              "height":100}},
+          "adaptiveStyles":{
+},
+          "placeholderText":"这段表述会显示在你的房源--房东介绍中"}]}},
   "masters":{
 },
   "objectPaths":{
@@ -3758,4 +3815,10 @@
     "fd405eb7aaa24162951e43caa54af5f9":{
       "scriptId":"u179"},
     "410baa78c4d6451d9f614236c1cb51df":{
-      "scriptId":"u180"}}});
+      "scriptId":"u180"},
+    "a68a7a93bb5a4384907d1b4bcf18fe52":{
+      "scriptId":"u181"},
+    "c5c93bcf09534210acf5fa5d87cc4fb1":{
+      "scriptId":"u182"},
+    "423e492beed94286bb2c9631745eefde":{
+      "scriptId":"u183"}}});

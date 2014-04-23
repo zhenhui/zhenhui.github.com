@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"join_us.html",
-  "generationDate":new Date(1398167868118.44),
+  "generationDate":new Date(1398254197193.33),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{

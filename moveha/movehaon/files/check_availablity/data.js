@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"check_availablity.html",
-  "generationDate":new Date(1398167864678.09),
+  "generationDate":new Date(1398254195078.12),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
