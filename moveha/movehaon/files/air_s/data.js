@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"air_s.html",
-  "generationDate":new Date(1398254197267.33),
+  "generationDate":new Date(1398665216351.83),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -11,7 +11,7 @@
 },
     "style":{
       "baseStyle":"627587b6038d43cca051c114ac41ad32",
-      "pageAlignment":"near",
+      "pageAlignment":"center",
       "fill":{
         "fillType":"solid",
         "color":0xFFF4F4F4},
@@ -41,7 +41,7 @@
               "y":20},
             "size":{
               "width":540,
-              "height":680},
+              "height":760},
             "borderFill":{
               "fillType":"solid",
               "color":0xFFCCCCCC}},
@@ -60,14 +60,14 @@
                   "y":20},
                 "size":{
                   "width":540,
-                  "height":680},
+                  "height":760},
                 "borderFill":{
                   "fillType":"solid",
                   "color":0xFFCCCCCC}},
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/new_post/u0.png"}},
+            "normal~":"images/air_s/u0.png"}},
 {
           "id":"6a1d0269e9114a948739214bc3d547d8",
           "label":"",
@@ -81,7 +81,7 @@
               "opacity":1},
             "location":{
               "x":207,
-              "y":30},
+              "y":35},
             "size":{
               "width":171,
               "height":37}},
@@ -101,7 +101,7 @@
                   "opacity":1},
                 "location":{
                   "x":207,
-                  "y":30},
+                  "y":35},
                 "size":{
                   "width":171,
                   "height":37}},
@@ -140,7 +140,7 @@
           "style":{
             "location":{
               "x":238,
-              "y":585},
+              "y":695},
             "size":{
               "width":100,
               "height":25}},
@@ -161,7 +161,7 @@
               "y":130},
             "size":{
               "width":99,
-              "height":288}},
+              "height":396}},
           "adaptiveStyles":{
 },
           "objects":[{
@@ -180,7 +180,7 @@
                   "y":130},
                 "size":{
                   "width":99,
-                  "height":288}},
+                  "height":396}},
               "adaptiveStyles":{
 }}],
           "images":{
@@ -310,7 +310,7 @@
                   "opacity":1}}},
             "location":{
               "x":250,
-              "y":316},
+              "y":356},
             "size":{
               "width":200,
               "height":25}},
@@ -326,7 +326,7 @@
           "style":{
             "location":{
               "x":250,
-              "y":386},
+              "y":499},
             "size":{
               "width":30,
               "height":24},
@@ -345,7 +345,7 @@
               "style":{
                 "location":{
                   "x":250,
-                  "y":386},
+                  "y":499},
                 "size":{
                   "width":30,
                   "height":24},
@@ -365,7 +365,7 @@
           "style":{
             "location":{
               "x":294,
-              "y":386},
+              "y":499},
             "size":{
               "width":30,
               "height":24},
@@ -384,7 +384,7 @@
               "style":{
                 "location":{
                   "x":294,
-                  "y":386},
+                  "y":499},
                 "size":{
                   "width":30,
                   "height":24},
@@ -404,7 +404,7 @@
           "style":{
             "location":{
               "x":337,
-              "y":386},
+              "y":499},
             "size":{
               "width":30,
               "height":24},
@@ -423,7 +423,7 @@
               "style":{
                 "location":{
                   "x":337,
-                  "y":386},
+                  "y":499},
                 "size":{
                   "width":30,
                   "height":24},
@@ -446,7 +446,7 @@
               "color":0xFFF1F1F1},
             "location":{
               "x":110,
-              "y":440},
+              "y":550},
             "size":{
               "width":400,
               "height":90},
@@ -468,7 +468,7 @@
                   "color":0xFFF1F1F1},
                 "location":{
                   "x":110,
-                  "y":440},
+                  "y":550},
                 "size":{
                   "width":400,
                   "height":90},
@@ -488,7 +488,7 @@
           "style":{
             "location":{
               "x":130,
-              "y":470},
+              "y":580},
             "size":{
               "width":360,
               "height":74}},
@@ -504,7 +504,7 @@
               "style":{
                 "location":{
                   "x":130,
-                  "y":470},
+                  "y":580},
                 "size":{
                   "width":360,
                   "height":74}},
@@ -522,7 +522,7 @@
             "fontSize":"24px",
             "location":{
               "x":250,
-              "y":351},
+              "y":464},
             "size":{
               "width":40,
               "height":28}},
@@ -539,14 +539,58 @@
                 "fontSize":"24px",
                 "location":{
                   "x":250,
-                  "y":351},
+                  "y":464},
                 "size":{
                   "width":40,
                   "height":28}},
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"resources/images/transparent.gif"}}]}},
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4cab3a96aa1843dab16ebd7f942ed92b",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "hint":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC,
+                  "opacity":1}}},
+            "location":{
+              "x":250,
+              "y":316},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "placeholderText":""},
+{
+          "id":"0da14ec2830342f5b16e752548bdafa0",
+          "label":"",
+          "type":"textArea",
+          "styleType":"textArea",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "hint":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC,
+                  "opacity":1}}},
+            "location":{
+              "x":250,
+              "y":391},
+            "size":{
+              "width":200,
+              "height":63}},
+          "adaptiveStyles":{
+},
+          "placeholderText":"例子：两个大行李箱，一个包裹"}]}},
   "masters":{
 },
   "objectPaths":{
@@ -601,4 +645,8 @@
     "6a34e6cc095a4967a59ba34de21e23d2":{
       "scriptId":"u24"},
     "9ddd77d5244c468a961674c330473f41":{
-      "scriptId":"u25"}}});
+      "scriptId":"u25"},
+    "4cab3a96aa1843dab16ebd7f942ed92b":{
+      "scriptId":"u26"},
+    "0da14ec2830342f5b16e752548bdafa0":{
+      "scriptId":"u27"}}});

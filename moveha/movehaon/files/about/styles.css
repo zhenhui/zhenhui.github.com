@@ -2,11 +2,11 @@
   margin:0px;
   background-color:rgba(244, 244, 244, 1);
   background-image:none;
-  position:static;
-  left:auto;
-  width:1010px;
-  margin-left:0;
-  margin-right:0;
+  position:relative;
+  left:-10px;
+  width:1000px;
+  margin-left:auto;
+  margin-right:auto;
   text-align:left;
 }
 #base {
@@ -217,7 +217,7 @@
 }
 #u17 {
   position:absolute;
-  left:399px;
+  left:398px;
   top:654px;
   width:85px;
   height:37px;
@@ -239,7 +239,7 @@
 }
 #u19 {
   position:absolute;
-  left:579px;
+  left:578px;
   top:654px;
   width:85px;
   height:37px;
@@ -283,7 +283,7 @@
 }
 #u23 {
   position:absolute;
-  left:202px;
+  left:190px;
   top:695px;
   width:78px;
   height:16px;
@@ -304,7 +304,7 @@
 }
 #u25 {
   position:absolute;
-  left:403px;
+  left:391px;
   top:695px;
   width:78px;
   height:16px;
@@ -325,7 +325,7 @@
 }
 #u27 {
   position:absolute;
-  left:586px;
+  left:574px;
   top:695px;
   width:78px;
   height:16px;
@@ -346,7 +346,7 @@
 }
 #u29 {
   position:absolute;
-  left:755px;
+  left:743px;
   top:695px;
   width:78px;
   height:16px;

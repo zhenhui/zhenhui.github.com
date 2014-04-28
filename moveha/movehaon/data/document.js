@@ -79,7 +79,15 @@
 {
         "pageName":"About",
         "type":"Wireframe",
-        "url":"about.html"}]},
+        "url":"about.html"},
+{
+        "pageName":"page-sign up",
+        "type":"Wireframe",
+        "url":"page-sign_up.html"},
+{
+        "pageName":"pay",
+        "type":"Wireframe",
+        "url":"pay.html"}]},
   "globalVariables":{
     "shaixuan":""},
   "defaultAdaptiveView":{

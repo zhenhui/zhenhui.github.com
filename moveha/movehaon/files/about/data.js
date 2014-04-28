@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"about.html",
-  "generationDate":new Date(1398254197395.35),
+  "generationDate":new Date(1398665216473.85),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -11,7 +11,7 @@
 },
     "style":{
       "baseStyle":"627587b6038d43cca051c114ac41ad32",
-      "pageAlignment":"near",
+      "pageAlignment":"center",
       "fill":{
         "fillType":"solid",
         "color":0xFFF4F4F4},
@@ -297,7 +297,7 @@
           "style":{
             "horizontalAlignment":"center",
             "location":{
-              "x":200,
+              "x":200.5,
               "y":654},
             "size":{
               "width":85,
@@ -314,7 +314,7 @@
               "style":{
                 "horizontalAlignment":"center",
                 "location":{
-                  "x":200,
+                  "x":200.5,
                   "y":654},
                 "size":{
                   "width":85,
@@ -332,7 +332,7 @@
           "style":{
             "horizontalAlignment":"center",
             "location":{
-              "x":399,
+              "x":398.5,
               "y":654},
             "size":{
               "width":85,
@@ -349,7 +349,7 @@
               "style":{
                 "horizontalAlignment":"center",
                 "location":{
-                  "x":399,
+                  "x":398.5,
                   "y":654},
                 "size":{
                   "width":85,
@@ -367,7 +367,7 @@
           "style":{
             "horizontalAlignment":"center",
             "location":{
-              "x":579,
+              "x":578.5,
               "y":654},
             "size":{
               "width":85,
@@ -384,7 +384,7 @@
               "style":{
                 "horizontalAlignment":"center",
                 "location":{
-                  "x":579,
+                  "x":578.5,
                   "y":654},
                 "size":{
                   "width":85,
@@ -402,7 +402,7 @@
           "style":{
             "horizontalAlignment":"center",
             "location":{
-              "x":750,
+              "x":750.5,
               "y":654},
             "size":{
               "width":85,
@@ -419,7 +419,7 @@
               "style":{
                 "horizontalAlignment":"center",
                 "location":{
-                  "x":750,
+                  "x":750.5,
                   "y":654},
                 "size":{
                   "width":85,
@@ -436,7 +436,7 @@
           "visible":true,
           "style":{
             "location":{
-              "x":202,
+              "x":190,
               "y":695},
             "size":{
               "width":78,
@@ -452,7 +452,7 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":202,
+                  "x":190,
                   "y":695},
                 "size":{
                   "width":78,
@@ -469,7 +469,7 @@
           "visible":true,
           "style":{
             "location":{
-              "x":403,
+              "x":391,
               "y":695},
             "size":{
               "width":78,
@@ -485,7 +485,7 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":403,
+                  "x":391,
                   "y":695},
                 "size":{
                   "width":78,
@@ -502,7 +502,7 @@
           "visible":true,
           "style":{
             "location":{
-              "x":586,
+              "x":574,
               "y":695},
             "size":{
               "width":78,
@@ -518,7 +518,7 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":586,
+                  "x":574,
                   "y":695},
                 "size":{
                   "width":78,
@@ -535,7 +535,7 @@
           "visible":true,
           "style":{
             "location":{
-              "x":755,
+              "x":743,
               "y":695},
             "size":{
               "width":78,
@@ -551,7 +551,7 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":755,
+                  "x":743,
                   "y":695},
                 "size":{
                   "width":78,
