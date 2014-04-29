@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"air_s.html",
-  "generationDate":new Date(1398665216351.83),
+  "generationDate":new Date(1398776258465.85),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -67,7 +67,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/air_s/u0.png"}},
+            "normal~":"images/new_post/u17.png"}},
 {
           "id":"6a1d0269e9114a948739214bc3d547d8",
           "label":"",

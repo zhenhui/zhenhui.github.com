@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"sign_up.html",
-  "generationDate":new Date(1398665215867.79),
+  "generationDate":new Date(1398776257730.78),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -842,7 +842,7 @@
           "images":{
             "start~":"resources/images/transparent.gif",
             "end~":"images/check_availablity/u49_end.png",
-            "line~":"images/new_post/u141_line.png"}},
+            "line~":"images/new_post/u201_line.png"}},
 {
           "id":"97e823e9280749b9a9ef101aca029363",
           "label":"",
