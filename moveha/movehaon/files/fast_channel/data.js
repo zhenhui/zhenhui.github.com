@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"fast_channel.html",
-  "generationDate":new Date(1398776258182.82),
+  "generationDate":new Date(1399126231689.19),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{

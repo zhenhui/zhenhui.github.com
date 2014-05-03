@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e889552-07bf-4fcc-b14c-5f064d338a30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/account_set.jpg" afterPath="$PROJECT_DIR$/moveha/account_set.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/account.html" afterPath="$PROJECT_DIR$/moveha/account.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/moveha/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u148.png" afterPath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u148.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u150_line.png" afterPath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u150_line.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u196.png" afterPath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u196.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u198_line.png" afterPath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u198_line.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u82.png" afterPath="$PROJECT_DIR$/moveha/movehaon/images/new_post/u82.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/air_s.html" afterPath="$PROJECT_DIR$/moveha/movehaon/air_s.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/about/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/about/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/account/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/account/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/air_s/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/air_s/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/check_availablity/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/check_availablity/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/detail/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/detail/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/details2/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/details2/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/fast_channel/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/fast_channel/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/index/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/index/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/join_us/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/join_us/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/list1/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/list1/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/new_post/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/new_post/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/nolist/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/nolist/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/old/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/old/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/page-sign_up/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/page-sign_up/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/pay/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/pay/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/post_place/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/post_place/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/search_list/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/search_list/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/sign_up/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/sign_up/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/something/data.js" afterPath="$PROJECT_DIR$/moveha/movehaon/files/something/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/data/document.js" afterPath="$PROJECT_DIR$/moveha/movehaon/data/document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/index.html" afterPath="$PROJECT_DIR$/moveha/movehaon/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/moveha.html" afterPath="$PROJECT_DIR$/moveha/moveha.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/new_post.html" afterPath="$PROJECT_DIR$/moveha/movehaon/new_post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/nolist.html" afterPath="$PROJECT_DIR$/moveha/movehaon/nolist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/sign_up.html" afterPath="$PROJECT_DIR$/moveha/movehaon/sign_up.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moveha/movehaon/files/new_post/styles.css" afterPath="$PROJECT_DIR$/moveha/movehaon/files/new_post/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zhenhui.github.com.iws" />
@@ -28,10 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="moveha.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="moveha.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moveha/moveha.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="13" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.4074074" vertical-offset="892" max-vertical-offset="1596">
+            <state line="72" column="12" selection-start="1549" selection-end="1549" vertical-scroll-proportion="-17.0" vertical-offset="892" max-vertical-offset="1653">
               <folding />
             </state>
           </provider>
@@ -49,8 +79,19 @@
       <file leaf-file-name="account.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moveha/account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="162" selection-end="162" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="551">
+            <state line="0" column="0" selection-start="0" selection-end="469" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="551">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/moveha/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="7" selection-start="365" selection-end="365" vertical-scroll-proportion="0.54131055" vertical-offset="0" max-vertical-offset="702">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,6 +121,7 @@
         <option value="$PROJECT_DIR$/moveha/history.html" />
         <option value="$PROJECT_DIR$/moveha/account.html" />
         <option value="$PROJECT_DIR$/moveha/moveha.html" />
+        <option value="$PROJECT_DIR$/moveha/post.html" />
       </list>
     </option>
   </component>
@@ -401,17 +443,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moveha/account.html">
+    <entry file="file://$PROJECT_DIR$/moveha/moveha.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="162" selection-end="162" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="551">
+        <state line="72" column="12" selection-start="1549" selection-end="1549" vertical-scroll-proportion="-17.0" vertical-offset="892" max-vertical-offset="1653">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moveha/moveha.html">
+    <entry file="file://$PROJECT_DIR$/moveha/account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="13" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.4074074" vertical-offset="892" max-vertical-offset="1596">
+        <state line="0" column="0" selection-start="0" selection-end="469" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="551">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moveha/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="7" selection-start="365" selection-end="365" vertical-scroll-proportion="0.54131055" vertical-offset="0" max-vertical-offset="702">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

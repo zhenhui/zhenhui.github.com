@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"account.html",
-  "generationDate":new Date(1398776256268.63),
+  "generationDate":new Date(1399126230502.07),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -7640,10 +7640,9 @@
                                   "isNewIfGroup":false,
                                   "actions":[{
                                       "action":"linkWindow",
-                                      "description":"在 新窗口/标签页 打开 Post place",
+                                      "description":"在 新窗口/标签页 打开 链接",
                                       "target":{
                                         "targetType":"page",
-                                        "url":"post_place.html",
                                         "includeVariables":true},
                                       "linkType":"new"}]}]}},
                           "tabbable":true,

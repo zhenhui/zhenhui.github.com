@@ -41,18 +41,6 @@
         "type":"Wireframe",
         "url":"account.html"},
 {
-        "pageName":"old",
-        "type":"Wireframe",
-        "url":"old.html",
-        "children":[{
-            "pageName":"something",
-            "type":"Wireframe",
-            "url":"something.html"},
-{
-            "pageName":"Post place",
-            "type":"Wireframe",
-            "url":"post_place.html"}]},
-{
         "pageName":"new post",
         "type":"Wireframe",
         "url":"new_post.html"},
