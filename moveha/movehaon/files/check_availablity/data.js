@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"check_availablity.html",
-  "generationDate":new Date(1399126229802),
+  "generationDate":new Date(1399385434580.56),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -930,7 +930,40 @@
           "images":{
             "start~":"resources/images/transparent.gif",
             "end~":"images/check_availablity/u49_end.png",
-            "line~":"images/check_availablity/u49_line.png"}}]}},
+            "line~":"images/check_availablity/u49_line.png"}},
+{
+          "id":"5ac5e144a03b423ea33a89d0098d4e93",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":496,
+              "y":445},
+            "size":{
+              "width":183,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d0c4067e5a5c4abfadc6da1f38693e5e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":496,
+                  "y":445},
+                "size":{
+                  "width":183,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
   "masters":{
 },
   "objectPaths":{
@@ -1033,4 +1066,8 @@
     "380cbd666846412e89ab7945d518629f":{
       "scriptId":"u48"},
     "4399d85932764239bd9313896dfcc99c":{
-      "scriptId":"u49"}}});
+      "scriptId":"u49"},
+    "5ac5e144a03b423ea33a89d0098d4e93":{
+      "scriptId":"u50"},
+    "d0c4067e5a5c4abfadc6da1f38693e5e":{
+      "scriptId":"u51"}}});

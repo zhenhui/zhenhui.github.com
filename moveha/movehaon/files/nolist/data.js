@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"nolist.html",
-  "generationDate":new Date(1399126231555.18),
+  "generationDate":new Date(1399385438049.9),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"air_s.html",
-  "generationDate":new Date(1399126231839.2),
+  "generationDate":new Date(1399385438563.95),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
