@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:250px;
+  width:300px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -16,7 +16,7 @@
   position:absolute;
   left:100px;
   top:29px;
-  width:130px;
+  width:180px;
   height:41px;
   line-height:20px;
 }
@@ -24,14 +24,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:180px;
   height:41px;
 }
 #u1 {
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:180px;
   word-wrap:break-word;
 }
 #u2 {
@@ -111,7 +111,7 @@
   position:absolute;
   left:100px;
   top:150px;
-  width:130px;
+  width:200px;
   height:75px;
   line-height:20px;
 }
@@ -119,14 +119,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:200px;
   height:75px;
 }
 #u8 {
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:200px;
   word-wrap:break-word;
 }
 #u9 {
@@ -304,7 +304,7 @@
   position:absolute;
   left:100px;
   top:271px;
-  width:130px;
+  width:180px;
   height:41px;
   line-height:20px;
 }
@@ -312,14 +312,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:180px;
   height:41px;
 }
 #u24 {
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:180px;
   word-wrap:break-word;
 }
 #u25 {
@@ -399,7 +399,7 @@
   position:absolute;
   left:100px;
   top:392px;
-  width:130px;
+  width:190px;
   height:75px;
   line-height:20px;
 }
@@ -407,14 +407,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:190px;
   height:75px;
 }
 #u31 {
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:190px;
   word-wrap:break-word;
 }
 #u32 {
@@ -583,7 +583,7 @@
   position:absolute;
   left:100px;
   top:520px;
-  width:130px;
+  width:170px;
   height:41px;
   line-height:20px;
 }
@@ -591,14 +591,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:170px;
   height:41px;
 }
 #u46 {
   position:absolute;
   left:0px;
   top:0px;
-  width:130px;
+  width:170px;
   word-wrap:break-word;
 }
 #u47 {

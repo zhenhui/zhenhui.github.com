@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"fast_channel.html",
-  "generationDate":new Date(1399385438277.93),
+  "generationDate":new Date(1399986506680.77),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -157,10 +157,10 @@
             "horizontalAlignment":"right",
             "lineSpacing":"36px",
             "location":{
-              "x":82,
+              "x":48,
               "y":130},
             "size":{
-              "width":127,
+              "width":161,
               "height":468}},
           "adaptiveStyles":{
 },
@@ -176,10 +176,10 @@
                 "horizontalAlignment":"right",
                 "lineSpacing":"36px",
                 "location":{
-                  "x":82,
+                  "x":48,
                   "y":130},
                 "size":{
-                  "width":127,
+                  "width":161,
                   "height":468}},
               "adaptiveStyles":{
 }}],
@@ -758,7 +758,7 @@
               "height":25}},
           "adaptiveStyles":{
 },
-          "placeholderText":""},
+          "placeholderText":"Limit 200 characters"},
 {
           "id":"817bb54fe0614fb6ba9b8fca5e133b70",
           "label":"",
@@ -776,7 +776,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/fast_channel/u37_line.png"}},
 {
           "id":"448fded40794445c88f47ab140513f0f",
@@ -860,6 +860,43 @@
           "images":{
             "normal~":"resources/images/transparent.gif"}},
 {
+          "id":"aca420bdc5f74c828141129d09af7d9d",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Heiti SC Light', 'Heiti SC'",
+            "fontWeight":"200",
+            "location":{
+              "x":700,
+              "y":27},
+            "size":{
+              "width":280,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b373f50863a34dcd83d3a3d872397f9c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Heiti SC Light', 'Heiti SC'",
+                "fontWeight":"200",
+                "location":{
+                  "x":700,
+                  "y":27},
+                "size":{
+                  "width":280,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
           "id":"94819e58001d472aab60a6e9be68bb05",
           "label":"",
           "type":"buttonShape",
@@ -897,7 +934,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/fast_channel/u43.png"}},
+            "normal~":"images/fast_channel/u45.png"}},
 {
           "id":"fdd07bbb0f854e82b8b92bab0fc3564a",
           "label":"",
@@ -905,12 +942,14 @@
           "styleType":"paragraph",
           "visible":true,
           "style":{
+            "fontName":"'Heiti SC Light', 'Heiti SC'",
+            "fontWeight":"200",
             "location":{
               "x":182,
               "y":1270},
             "size":{
-              "width":222,
-              "height":32}},
+              "width":303,
+              "height":30}},
           "adaptiveStyles":{
 },
           "objects":[{
@@ -921,12 +960,14 @@
               "styleType":"paragraph",
               "visible":true,
               "style":{
+                "fontName":"'Heiti SC Light', 'Heiti SC'",
+                "fontWeight":"200",
                 "location":{
                   "x":182,
                   "y":1270},
                 "size":{
-                  "width":222,
-                  "height":32}},
+                  "width":303,
+                  "height":30}},
               "adaptiveStyles":{
 }}],
           "images":{
@@ -977,6 +1018,8 @@
           "styleType":"paragraph",
           "visible":true,
           "style":{
+            "fontName":"'Heiti SC Light', 'Heiti SC'",
+            "fontWeight":"200",
             "foreGroundFill":{
               "fillType":"solid",
               "color":0xFF999999,
@@ -986,7 +1029,7 @@
               "y":1220},
             "size":{
               "width":300,
-              "height":32}},
+              "height":45}},
           "adaptiveStyles":{
 },
           "objects":[{
@@ -997,6 +1040,8 @@
               "styleType":"paragraph",
               "visible":true,
               "style":{
+                "fontName":"'Heiti SC Light', 'Heiti SC'",
+                "fontWeight":"200",
                 "foreGroundFill":{
                   "fillType":"solid",
                   "color":0xFF999999,
@@ -1006,7 +1051,7 @@
                   "y":1220},
                 "size":{
                   "width":300,
-                  "height":32}},
+                  "height":45}},
               "adaptiveStyles":{
 }}],
           "images":{
@@ -1133,23 +1178,27 @@
       "scriptId":"u41"},
     "dc0153ec22fa4b5fab2cfd8df296a638":{
       "scriptId":"u42"},
-    "94819e58001d472aab60a6e9be68bb05":{
+    "aca420bdc5f74c828141129d09af7d9d":{
       "scriptId":"u43"},
-    "eadc63ad82f24c05a76f902197ccca67":{
+    "b373f50863a34dcd83d3a3d872397f9c":{
       "scriptId":"u44"},
-    "fdd07bbb0f854e82b8b92bab0fc3564a":{
+    "94819e58001d472aab60a6e9be68bb05":{
       "scriptId":"u45"},
-    "0a1b473558504d0d8a7615f05f47a713":{
+    "eadc63ad82f24c05a76f902197ccca67":{
       "scriptId":"u46"},
-    "ff8da11618794220819f14efa40c46f3":{
+    "fdd07bbb0f854e82b8b92bab0fc3564a":{
       "scriptId":"u47"},
-    "7528858ac28e4883bfa55fb6b9e73550":{
+    "0a1b473558504d0d8a7615f05f47a713":{
       "scriptId":"u48"},
-    "880c0cd3f1ce4ad4b29d5ad20ce06b8f":{
+    "ff8da11618794220819f14efa40c46f3":{
       "scriptId":"u49"},
-    "b8e831d166734d2f80f5fbb99e1c0f02":{
+    "7528858ac28e4883bfa55fb6b9e73550":{
       "scriptId":"u50"},
-    "47f5a600e1ae4eb7b111c82e3ee4926f":{
+    "880c0cd3f1ce4ad4b29d5ad20ce06b8f":{
       "scriptId":"u51"},
+    "b8e831d166734d2f80f5fbb99e1c0f02":{
+      "scriptId":"u52"},
+    "47f5a600e1ae4eb7b111c82e3ee4926f":{
+      "scriptId":"u53"},
     "124017b165b14e198478c9177f719d9e":{
-      "scriptId":"u52"}}});
+      "scriptId":"u54"}}});

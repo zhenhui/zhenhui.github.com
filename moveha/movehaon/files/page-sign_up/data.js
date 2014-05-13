@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"page-sign_up.html",
-  "generationDate":new Date(1399385439365.03),
+  "generationDate":new Date(1399986507422.84),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -233,7 +233,7 @@
                                         "value":["0ae3e2eac1e748c39bb4a1e59c6f79b9"]},
 {
                                         "exprType":"htmlLiteral",
-                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;color:#669900;text-align:left;line-height:normal;\">邮箱可用</span></p>",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'Arial';font-weight:400;font-style:normal;font-size:13px;color:#669900;text-align:left;line-height:normal;\">邮箱可用</span></p>",
                                         "localVariables":{
 },
                                         "stos":[]},
@@ -277,7 +277,7 @@
                                         "value":["0ae3e2eac1e748c39bb4a1e59c6f79b9"]},
 {
                                         "exprType":"htmlLiteral",
-                                        "value":"<p style=\"font-size:12px;text-align:left;line-height:normal;\"><span style=\"font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:12px;color:#0099FF;text-align:left;line-height:normal;\">邮箱已注册，去登陆</span></p>",
+                                        "value":"<p style=\"font-size:12px;text-align:left;line-height:normal;\"><span style=\"font-family:'Arial';font-weight:400;font-style:normal;font-size:12px;color:#0099FF;text-align:left;line-height:normal;\">邮箱已注册，去登陆</span></p>",
                                         "localVariables":{
 },
                                         "stos":[]},
@@ -3190,7 +3190,83 @@
                       "adaptiveStyles":{
 }}],
                   "images":{
-                    "normal~":"images/detail/u142.png"}}]}]}]}},
+                    "normal~":"images/detail/u142.png"}}]}]},
+{
+          "id":"667abbcc5d7144e88f599dd9c0c921c3",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Heiti SC Light', 'Heiti SC'",
+            "fontWeight":"200",
+            "location":{
+              "x":890,
+              "y":110},
+            "size":{
+              "width":330,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8b6b5e27e9924676a5e32bf269f86430",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Heiti SC Light', 'Heiti SC'",
+                "fontWeight":"200",
+                "location":{
+                  "x":890,
+                  "y":110},
+                "size":{
+                  "width":330,
+                  "height":30}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a28f10736ce24b359672007e75ab4beb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'Heiti SC Light', 'Heiti SC'",
+            "fontWeight":"200",
+            "fontStyle":"normal",
+            "location":{
+              "x":890,
+              "y":63},
+            "size":{
+              "width":69,
+              "height":37}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2566b2022fee46ccae1ff445de9f942e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Heiti SC Light', 'Heiti SC'",
+                "fontWeight":"200",
+                "fontStyle":"normal",
+                "location":{
+                  "x":890,
+                  "y":63},
+                "size":{
+                  "width":69,
+                  "height":37}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
   "masters":{
 },
   "objectPaths":{
@@ -3435,4 +3511,12 @@
     "961efcf1cc4140f1a81372b38a274723":{
       "scriptId":"u119"},
     "9ab90f4d471c46b3a1beba4494a44801":{
-      "scriptId":"u120"}}});
+      "scriptId":"u120"},
+    "667abbcc5d7144e88f599dd9c0c921c3":{
+      "scriptId":"u121"},
+    "8b6b5e27e9924676a5e32bf269f86430":{
+      "scriptId":"u122"},
+    "a28f10736ce24b359672007e75ab4beb":{
+      "scriptId":"u123"},
+    "2566b2022fee46ccae1ff445de9f942e":{
+      "scriptId":"u124"}}});

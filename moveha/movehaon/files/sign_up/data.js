@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"sign_up.html",
-  "generationDate":new Date(1399385437731.87),
+  "generationDate":new Date(1399986506350.73),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -245,7 +245,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u49_end.png",
+            "end~":"images/check_availablity/u32_end.png",
             "line~":"images/sign_up/u9_line.png"}},
 {
           "id":"3a89db41b90f4af983cbd1b19ef126a4",
@@ -297,7 +297,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u12_line.png"}},
 {
           "id":"7a84a57ccf034e689ecec46093b5d8a4",
@@ -368,7 +368,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u12_line.png"}},
 {
           "id":"f2d790f33899454bbbf910250cf82454",
@@ -822,7 +822,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u37_line.png"}},
 {
           "id":"0009c268820a4ea0994c3b47a6d79619",
@@ -841,8 +841,8 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u49_end.png",
-            "line~":"images/new_post/u198_line.png"}},
+            "end~":"images/check_availablity/u32_end.png",
+            "line~":"images/new_post/u196_line.png"}},
 {
           "id":"97e823e9280749b9a9ef101aca029363",
           "label":"",
@@ -956,7 +956,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u12_line.png"}},
 {
           "id":"acb22896e6dd44f29ba5da11d968ee75",
@@ -1008,7 +1008,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u12_line.png"}},
 {
           "id":"67d0e8899b8c4f4db0b3b66b0ef31bb4",
@@ -1266,7 +1266,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u12_line.png"}},
 {
           "id":"438cb237b6b645d4a81a2857cd226e42",
@@ -1304,7 +1304,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u12_line.png"}},
 {
           "id":"7a7766aa77cf403fbab74dcadb96de0f",
@@ -1422,7 +1422,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u12_line.png"}},
 {
           "id":"b6836719bf6a41289314a40c7f130ef0",
@@ -1626,7 +1626,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u78_line.png"}},
 {
           "id":"abc0b338990a49c0a9112ed2026edcc7",
@@ -1795,7 +1795,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u49_end.png",
+            "end~":"images/check_availablity/u32_end.png",
             "line~":"images/sign_up/u87_line.png"}},
 {
           "id":"d09d3e0731a741b8b03233fa1ce91be2",
@@ -2328,7 +2328,7 @@
 },
           "images":{
             "start~":"resources/images/transparent.gif",
-            "end~":"images/check_availablity/u29_end.png",
+            "end~":"images/new_post/u25_end.png",
             "line~":"images/sign_up/u12_line.png"}}]}},
   "masters":{
 },

@@ -75,7 +75,11 @@
 {
         "pageName":"pay",
         "type":"Wireframe",
-        "url":"pay.html"}]},
+        "url":"pay.html"},
+{
+        "pageName":"T-Mobile",
+        "type":"Wireframe",
+        "url":"t-mobile.html"}]},
   "globalVariables":{
     "shaixuan":""},
   "defaultAdaptiveView":{

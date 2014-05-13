@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"list1.html",
-  "generationDate":new Date(1399385432933.39),
+  "generationDate":new Date(1399986503885.49),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -41,7 +41,7 @@
               "x":100,
               "y":29},
             "size":{
-              "width":130,
+              "width":180,
               "height":41}},
           "adaptiveStyles":{
 },
@@ -58,7 +58,7 @@
                   "x":100,
                   "y":29},
                 "size":{
-                  "width":130,
+                  "width":180,
                   "height":41}},
               "adaptiveStyles":{
 }}],
@@ -180,7 +180,7 @@
               "x":100,
               "y":150},
             "size":{
-              "width":130,
+              "width":200,
               "height":75}},
           "adaptiveStyles":{
 },
@@ -197,7 +197,7 @@
                   "x":100,
                   "y":150},
                 "size":{
-                  "width":130,
+                  "width":200,
                   "height":75}},
               "adaptiveStyles":{
 }}],
@@ -523,7 +523,7 @@
               "x":100,
               "y":271},
             "size":{
-              "width":130,
+              "width":180,
               "height":41}},
           "adaptiveStyles":{
 },
@@ -540,7 +540,7 @@
                   "x":100,
                   "y":271},
                 "size":{
-                  "width":130,
+                  "width":180,
                   "height":41}},
               "adaptiveStyles":{
 }}],
@@ -662,7 +662,7 @@
               "x":100,
               "y":392},
             "size":{
-              "width":130,
+              "width":190,
               "height":75}},
           "adaptiveStyles":{
 },
@@ -679,7 +679,7 @@
                   "x":100,
                   "y":392},
                 "size":{
-                  "width":130,
+                  "width":190,
                   "height":75}},
               "adaptiveStyles":{
 }}],
@@ -975,7 +975,7 @@
               "x":100,
               "y":520},
             "size":{
-              "width":130,
+              "width":170,
               "height":41}},
           "adaptiveStyles":{
 },
@@ -992,7 +992,7 @@
                   "x":100,
                   "y":520},
                 "size":{
-                  "width":130,
+                  "width":170,
                   "height":41}},
               "adaptiveStyles":{
 }}],

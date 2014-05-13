@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"detail.html",
-  "generationDate":new Date(1399385433487.45),
+  "generationDate":new Date(1399986504231.52),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -2327,7 +2327,7 @@
           "styleType":"paragraph",
           "visible":true,
           "style":{
-            "fontName":"'Arial Negreta', 'Arial'",
+            "fontName":"'Arial Bold', 'Arial'",
             "fontSize":"16px",
             "fontWeight":"700",
             "location":{
@@ -2346,7 +2346,7 @@
               "styleType":"paragraph",
               "visible":true,
               "style":{
-                "fontName":"'Arial Negreta', 'Arial'",
+                "fontName":"'Arial Bold', 'Arial'",
                 "fontSize":"16px",
                 "fontWeight":"700",
                 "location":{

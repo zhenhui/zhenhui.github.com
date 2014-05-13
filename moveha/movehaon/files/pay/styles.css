@@ -135,6 +135,8 @@
   top:116px;
   width:680px;
   height:24px;
+  font-family:'Heiti SC Light', 'Heiti SC';
+  font-weight:200;
   color:#666666;
   text-align:center;
 }
@@ -416,7 +418,7 @@
 }
 #u32 {
   position:absolute;
-  left:320px;
+  left:369px;
   top:1250px;
   width:100px;
   height:25px;

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"pay.html",
-  "generationDate":new Date(1399385439684.07),
+  "generationDate":new Date(1399986507647.86),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -222,6 +222,8 @@
           "styleType":"paragraph",
           "visible":true,
           "style":{
+            "fontName":"'Heiti SC Light', 'Heiti SC'",
+            "fontWeight":"200",
             "horizontalAlignment":"center",
             "foreGroundFill":{
               "fillType":"solid",
@@ -246,6 +248,8 @@
               "styleType":"paragraph",
               "visible":true,
               "style":{
+                "fontName":"'Heiti SC Light', 'Heiti SC'",
+                "fontWeight":"200",
                 "horizontalAlignment":"center",
                 "foreGroundFill":{
                   "fillType":"solid",
@@ -672,7 +676,7 @@
           "visible":true,
           "style":{
             "location":{
-              "x":320,
+              "x":369,
               "y":1250},
             "size":{
               "width":100,

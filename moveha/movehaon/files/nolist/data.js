@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"nolist.html",
-  "generationDate":new Date(1399385438049.9),
+  "generationDate":new Date(1399986506548.75),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -174,7 +174,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/account/u250.png"}},
+            "normal~":"images/account/u251.png"}},
 {
           "id":"19a91d0dc7974b92a065b7e768e47a7e",
           "label":"",
@@ -223,7 +223,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/account/u252.png"}},
+            "normal~":"images/account/u253.png"}},
 {
           "id":"c72feb9006a4464b9acc745e45541cfd",
           "label":"",
