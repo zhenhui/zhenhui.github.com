@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"search_list.html",
-  "generationDate":new Date(1399986503720.47),
+  "generationDate":new Date(1400676667590.8),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{

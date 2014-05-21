@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"page-sign_up.html",
-  "generationDate":new Date(1399986507422.84),
+  "generationDate":new Date(1400676672935.33),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -233,7 +233,7 @@
                                         "value":["0ae3e2eac1e748c39bb4a1e59c6f79b9"]},
 {
                                         "exprType":"htmlLiteral",
-                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'Arial';font-weight:400;font-style:normal;font-size:13px;color:#669900;text-align:left;line-height:normal;\">邮箱可用</span></p>",
+                                        "value":"<p style=\"font-size:13px;text-align:left;line-height:normal;\"><span style=\"font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:13px;color:#669900;text-align:left;line-height:normal;\">邮箱可用</span></p>",
                                         "localVariables":{
 },
                                         "stos":[]},
@@ -277,7 +277,7 @@
                                         "value":["0ae3e2eac1e748c39bb4a1e59c6f79b9"]},
 {
                                         "exprType":"htmlLiteral",
-                                        "value":"<p style=\"font-size:12px;text-align:left;line-height:normal;\"><span style=\"font-family:'Arial';font-weight:400;font-style:normal;font-size:12px;color:#0099FF;text-align:left;line-height:normal;\">邮箱已注册，去登陆</span></p>",
+                                        "value":"<p style=\"font-size:12px;text-align:left;line-height:normal;\"><span style=\"font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;font-size:12px;color:#0099FF;text-align:left;line-height:normal;\">邮箱已注册，去登陆</span></p>",
                                         "localVariables":{
 },
                                         "stos":[]},

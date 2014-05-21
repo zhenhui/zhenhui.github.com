@@ -79,7 +79,11 @@
 {
         "pageName":"T-Mobile",
         "type":"Wireframe",
-        "url":"t-mobile.html"}]},
+        "url":"t-mobile.html"},
+{
+        "pageName":"allservice",
+        "type":"Wireframe",
+        "url":"allservice.html"}]},
   "globalVariables":{
     "shaixuan":""},
   "defaultAdaptiveView":{

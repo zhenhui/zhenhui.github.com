@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"t-mobile.html",
-  "generationDate":new Date(1399986507910.89),
+  "generationDate":new Date(1400676673872.43),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
