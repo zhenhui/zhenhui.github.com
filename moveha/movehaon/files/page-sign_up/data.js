@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"page-sign_up.html",
-  "generationDate":new Date(1400676672935.33),
+  "generationDate":new Date(1401111432030.66),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{

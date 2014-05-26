@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"account.html",
-  "generationDate":new Date(1400676670284.07),
+  "generationDate":new Date(1401111428817.34),
   "isCanvasEnabled":false,
   "variables":["shaixuan"],
   "page":{
@@ -452,7 +452,7 @@
                                   "styleType":"tableCell",
                                   "visible":true,
                                   "style":{
-                                    "fontName":"'Arial Bold', 'Arial'",
+                                    "fontName":"'Arial Negreta', 'Arial'",
                                     "fontSize":"20px",
                                     "fontWeight":"700",
                                     "horizontalAlignment":"center",
@@ -486,7 +486,7 @@
                                       "styleType":"paragraph",
                                       "visible":true,
                                       "style":{
-                                        "fontName":"'Arial Bold', 'Arial'",
+                                        "fontName":"'Arial Negreta', 'Arial'",
                                         "fontSize":"20px",
                                         "fontWeight":"700",
                                         "horizontalAlignment":"center",
@@ -1349,7 +1349,7 @@
                                   "styleType":"tableCell",
                                   "visible":true,
                                   "style":{
-                                    "fontName":"'Arial Bold', 'Arial'",
+                                    "fontName":"'Arial Negreta', 'Arial'",
                                     "fontSize":"20px",
                                     "fontWeight":"700",
                                     "horizontalAlignment":"center",
@@ -1383,7 +1383,7 @@
                                       "styleType":"paragraph",
                                       "visible":true,
                                       "style":{
-                                        "fontName":"'Arial Bold', 'Arial'",
+                                        "fontName":"'Arial Negreta', 'Arial'",
                                         "fontSize":"20px",
                                         "fontWeight":"700",
                                         "horizontalAlignment":"center",
@@ -1627,7 +1627,7 @@
                                   "styleType":"tableCell",
                                   "visible":true,
                                   "style":{
-                                    "fontName":"'Arial Bold', 'Arial'",
+                                    "fontName":"'Arial Negreta', 'Arial'",
                                     "fontSize":"20px",
                                     "fontWeight":"700",
                                     "horizontalAlignment":"center",
@@ -1661,7 +1661,7 @@
                                       "styleType":"paragraph",
                                       "visible":true,
                                       "style":{
-                                        "fontName":"'Arial Bold', 'Arial'",
+                                        "fontName":"'Arial Negreta', 'Arial'",
                                         "fontSize":"20px",
                                         "fontWeight":"700",
                                         "horizontalAlignment":"center",
@@ -3449,7 +3449,7 @@
                                   "styleType":"tableCell",
                                   "visible":true,
                                   "style":{
-                                    "fontName":"'Arial Bold', 'Arial'",
+                                    "fontName":"'Arial Negreta', 'Arial'",
                                     "fontSize":"16px",
                                     "fontWeight":"700",
                                     "horizontalAlignment":"center",
@@ -3483,7 +3483,7 @@
                                       "styleType":"paragraph",
                                       "visible":true,
                                       "style":{
-                                        "fontName":"'Arial Bold', 'Arial'",
+                                        "fontName":"'Arial Negreta', 'Arial'",
                                         "fontSize":"16px",
                                         "fontWeight":"700",
                                         "horizontalAlignment":"center",
