@@ -1,0 +1,161 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main">
+        <p style="text-align: center;font-size:34px;margin-top: 50px;margin-bottom: 50px;">Moveha App Icon</p>
+        <ul class="icon_lists clear">
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe600;</i>
+                    <div class="name">菜单</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe601;</i>
+                    <div class="name">返回</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe602;</i>
+                    <div class="name">筛选</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe603;</i>
+                    <div class="name">分享</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe604;</i>
+                    <div class="name">喜欢</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe605;</i>
+                    <div class="name">前进</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe606;</i>
+                    <div class="name">搜索</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe607;</i>
+                    <div class="name">增加</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe608;</i>
+                    <div class="name">用户</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe609;</i>
+                    <div class="name">关闭</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe60a;</i>
+                    <div class="name">声音</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe60b;</i>
+                    <div class="name">定位</div>
+                </li>
+                <li class="one">
+                    <i class="icon iconfont firsticon">&#xe60c;</i>
+                    <div class="name">键盘</div>
+                </li>
+                </ul>
+                <ul class="icon_lists clear">
+                <li class="two">
+                    <i class="icon iconfont secondicon">&#xe700;</i>
+                    <div class="name">搜索mini</div>
+                </li>
+                <li class="two">
+                    <i class="icon iconfont secondicon">&#xe701;</i>
+                    <div class="name">女性</div>
+                </li>    
+                <li class="two">
+                    <i class="icon iconfont secondicon">&#xe702;</i>
+                    <div class="name">勾</div>
+                </li>
+                <li class="two">
+                    <i class="icon iconfont secondicon">&#xe703;</i>
+                    <div class="name">定位</div>
+                </li>  
+                <li class="two">
+                    <i class="icon iconfont secondicon">&#xe704;</i>
+                    <div class="name">男性</div>
+                </li> 
+                </ul>
+                <ul class="icon_lists clear"> 
+                <li class="three">
+                    <i class="icon iconfont thicon">&#xe800;</i>
+                    <div class="name">笑</div>
+                </li>  
+                <li class="three">
+                    <i class="icon iconfont thicon">&#xe801;</i>
+                    <div class="name">哭</div>
+                </li> 
+                <li class="three">
+                    <i class="icon iconfont thicon">&#xe802;</i>
+                    <div class="name">图片</div>
+                </li> 
+                <li class="three">
+                    <i class="icon iconfont thicon">&#xe803;</i>
+                    <div class="name">相机</div>
+                </li> 
+                </ul>  
+                <ul class="icon_lists clear"> 
+                <li>
+                    <i class="icon iconfont fouricon">&#xe900;</i>
+                </li>
+                <li>
+                    <i class="icon iconfont fouricon">&#xe901;</i>
+                </li> 
+                <li>
+                    <i class="icon iconfont fouricon">&#xe902;</i>
+                </li> 
+                <li>
+                    <i class="icon iconfont fouricon">&#xe903;</i>
+                </li> 
+                <li>
+                    <i class="icon iconfont fouricon">&#xe904;</i>
+                </li> 
+                <li>
+                    <i class="icon iconfont fouricon">&#xe905;</i>
+                </li> 
+                <li>
+                    <i class="icon iconfont fouricon">&#xe906;</i>
+                </li> 
+                <li>
+                    <i class="icon iconfont fouricon">&#xe907;</i>
+                </li>   
+        </ul>
+
+
+        <div class="helps">
+            第一步：使用font-face声明字体
+            <pre>
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#uxiconfont') format('svg'); /* iOS 4.1- */
+}
+</pre>
+第二步：定义使用iconfont的样式
+            <pre>
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+</pre>
+第三步：挑选相应图标并获取字体编码，应用于页面
+<pre>
+&lt;i class="iconfont"&gt;&amp;#x33&lt;/i&gt;
+</pre>
+        </div>
+
+    </div>
+</body>
+</html>
