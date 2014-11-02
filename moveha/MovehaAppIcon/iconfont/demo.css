@@ -120,3 +120,15 @@ body {
   margin-right: 35px;
   margin-bottom: 50px;
 }
+
+.ss {
+  font-size: 16px;
+  background-color: #ff825c;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+}
+.ss:hover {
+  text-decoration:none;
+  background-color: #f56e45;
+}
