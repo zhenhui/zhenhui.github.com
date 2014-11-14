@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>制作学校logo的地图标识</title>
+    <script src="js/jquery.min.js"></script>
     <link rel="stylesheet" href="demo.css">
     <link rel="stylesheet" href="iconfont.css">
     <meta name="viewport" content="width=device-width,height=device-height,minimum-scale=1.0,maximum-scale=1.0,target-densitydpi=device-dpi"/>
@@ -26,7 +27,10 @@
 			background-image: url(bc.png); 
 			background-size: 100% 100%;
 			background-repeat: no-repeat;
-			background-attachment:fixed
+			background-attachment:fixed;
+			-moz-box-shadow:0 -5px 20px #8ab29f inset;             /* For Firefox3.6+ */
+			-webkit-box-shadow:0 -5px 20px #8ab29f inset;         /* For Chrome5+, Safari5+ */
+			box-shadow:0 -5px 20px #8ab29f inset;                  /* For Latest Opera */
 		}
 
 		h1 {
@@ -55,8 +59,56 @@
 			max-width: 1000px;
 			margin: auto;
 		}
+		.details {
+			margin-top: 100px;
+		}
+		.image-in {
+			text-align: center;
+			margin-top: 20px;
+		}
+		.foot {
+			margin-top: 200px;
+			padding-top: 100px;
+			height: 150px;
+			background-color: #dbdbdb;
+		}
+		.foot img {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			margin-left: -140px;
+			margin-top: -200px;
+		}
+		.lianxi {
+			border:none;
+			font-size: 1em;
+			cursor: pointer;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			font-size: 24px;
+			color: #333;
+			font-weight: bold;
+			transition: 1s;
+		}
+		li {
+			margin-top: 5px;
+			font-size: 16px;
+			color: #666;
+			font-weight: normal;
+			transition: .2s;
+		}
+		li:hover {
+			color: #ff825c;
+			margin-left: 5px;
+		}
 	</style>
 	<div class="main">
+		<div style="background-color:#333;height:20px;padding-top:7px;">
+			<p style="color:#bdbdbd;text-align:center;font-size:12px;margin:0;">建议使用高级浏览器浏览</p>
+		</div>
 		<div class="banner">
 			<h1>制作学校logo的地图标识</h1>
 			<p style="text-align: center;">
@@ -65,84 +117,81 @@
 			</p>
 		</div>
 		<div class="step">
-			<div>
-				<h2>Step1 找好学校图标素材</h2>
-				<ul>
-					<li>素材的大小最好是正圆或者正方形</li>
-					<li>素材的主体部分大小在60px X 60px以上</li>
+			<div class="details" >
+				<span>
+					<ul style="list-style-type:none;text-align: center;">Step1 找好学校图标素材
+						<li style="margin-left:40px;">素材的大小最好是正圆或者正方形</li>
+						<li style="margin-left:40px;">素材的主体部分大小在60px X 60px以上</li>
+					</ul>
+					<div class="image-in">
+						<img src="size.png">
+					</div>
+				</span>
+				
+			</div>
+			<div class="details" style="width:100%;">
+				<ul style="list-style-type:none;text-align: center;">Step2 将素材放入Photoshop
+					<li style="margin-top:20px;">1. 在PS中打开下载的模板文件</li>
+					<li>2. 选中相关图层</li>
+					<li>3. 把素材拖入PS</li>
+					<li>4. 素材成功拖入后<span style="color:#ff825c;font-weight:bold;">回车</span>确认,图层嵌入成功,边框消失</li>
 				</ul>
+				<div class="image-in">
+					<img src="in1.png">
+					<img src="in2.png">
+				</div>
+			</div>
+			<div class="details" style="width:100%;">
+				<ul style="list-style-type:none;text-align: center;">Step3 调整素材位置
+					<li>1. 选中素材图层</li>
+					<li>2. 按住<span style="color:#ff825c;font-weight:bold;">Alt</span>键,点击素材图层和背景色图层中间的分隔线把素材嵌套到区域内</li>
+					<li>3. 如果素材有底色，选中底色图层，双击图层前方的小方块出现调色窗口后，点击素材中的底色，吸色成功后</li>
+					<li>4. 选按“command+T(Windows 按Ctrl+T),使图层进入变形模式”</li>
+					<li>5. 按住Shift键，同时拖动边框上的几个点来进行等比例变形</li>
+					<li>6. 在变形模式中，直接拖动元素来移动（不要拖动中心点）；不在编辑模式中，按住Command/Ctrl来移动元素（前提是选中素材图层）</li>
+					<li>7. 素材成功拖入后<span style="color:#ff825c;font-weight:bold;">回车</span>确认嵌入图层</li>
+				</ul>
+				<div class="image-in">
+					<img src="alt.png">
+					<img src="transfer.png">
+				</div>
+			</div>
+			<div class="details" style="width:100%;">
+				<ul style="list-style-type:none;text-align: center;">Step4 保存文件
+					<li>1. 缩放和位置都调整OK</li>
+					<li>2. 依次点击菜单“文件--保存为Web所用格式”</li>
+					<li>3. 在右侧选择“PNG-8”，颜色选择“64”或者“128”，主要体积要小，够清晰</li>
+					<li>完成后，点击存储，选择保存的位置</li>
+					<li>最后，为了下次编辑，建议把刚才的素材图层删除或者隐藏（选中后点删除或者前面的小眼睛）</li>
+				</ul>
+				<div class="image-in">
+					<img src="save.png">
+				</div>
 			</div>
 		</div>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>1</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>1</p>
-		<p>2</p>
-		<p>2</p>
-		<p>1</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
-		<p>2</p>
 	</div>
+	<div class="foot">
+		<h2 style="text-align:center;">有问题可以<a href="mailto:jakon@moveha.com" class="lianxi" id="mail">email</a>或者<a  class="lianxi" id="show">微信</a>我</h2>
+		<img class="we" src="webchat.png">
+		<p class="mymail" style="text-align:center">jakon@moveha.com</p>
+	</div>
+	<script type="text/javascript">
+	$(".we").hide();
+	$(".mymail").hide();
+		$(document).ready(function(){
+		  $("#show").click(function(){
+		   	 $(".we").show();
+		  });
+		  $(".we").click(function(){
+    			$(this).hide();
+  		});
+		  $("#mail").mouseover(function(){
+		  	$(".mymail").fadeIn("slow");
+		  })
+		  $("#mail").mouseout(function(){
+		  	$(".mymail").hidden();
+		  })
+		});
+ 		
+	</script>
 </body>
