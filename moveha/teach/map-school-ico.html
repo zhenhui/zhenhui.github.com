@@ -143,7 +143,7 @@
 			</div>
 			<div class="details" style="width:100%;">
 				<ul style="list-style-type:none;text-align: center;">Step3 调整素材位置
-					<li>1. 选中素材图层</li>
+					<li style="margin-top:20px;">1. 选中素材图层</li>
 					<li>2. 按住<span style="color:#ff825c;font-weight:bold;">Alt</span>键,点击素材图层和背景色图层中间的分隔线把素材嵌套到区域内</li>
 					<li>3. 如果素材有底色，选中底色图层，双击图层前方的小方块出现调色窗口后，点击素材中的底色，吸色成功后</li>
 					<li>4. 选按“command+T(Windows 按Ctrl+T),使图层进入变形模式”</li>
@@ -158,11 +158,11 @@
 			</div>
 			<div class="details" style="width:100%;">
 				<ul style="list-style-type:none;text-align: center;">Step4 保存文件
-					<li>1. 缩放和位置都调整OK</li>
+					<li style="margin-top:20px;">1. 缩放和位置都调整OK</li>
 					<li>2. 依次点击菜单“文件--保存为Web所用格式”</li>
 					<li>3. 在右侧选择“PNG-8”，颜色选择“64”或者“128”，主要体积要小，够清晰</li>
-					<li>完成后，点击存储，选择保存的位置</li>
-					<li>最后，为了下次编辑，建议把刚才的素材图层删除或者隐藏（选中后点删除或者前面的小眼睛）</li>
+					<li>4. 完成后，点击存储，选择保存的位置</li>
+					<li>5. 最后，为了下次编辑，建议把刚才的素材图层删除或者隐藏（选中后点删除或者前面的小眼睛）</li>
 				</ul>
 				<div class="image-in">
 					<img src="save.png">
@@ -180,16 +180,16 @@
 	$(".mymail").hide();
 		$(document).ready(function(){
 		  $("#show").click(function(){
-		   	 $(".we").show();
+		   	 $(".we").fadeIn(200);
 		  });
 		  $(".we").click(function(){
-    			$(this).hide();
+    			$(this).fadeOut(200);
   		});
 		  $("#mail").mouseover(function(){
 		  	$(".mymail").fadeIn("slow");
 		  })
 		  $("#mail").mouseout(function(){
-		  	$(".mymail").hidden();
+		  	$(".mymail").fadeout("hidden");
 		  })
 		});
  		
