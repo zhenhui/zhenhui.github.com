@@ -121,7 +121,7 @@ h2 {font-size: 24px;color: #333;font-weight: 400;line-height: 30px;}
 .black {color: #10462c}
 .neighborhood h2{color: #fff;font-weight: 200;}
 .neighborhood a{color: #fff;font-weight: 200;text-decoration: underline;margin-left: 5px;}
-.ico {width: 50px;height: 50px;float: left;margin: 14px 0 0 14px;background-image: url(img/neightborhood.png);transition: 0.3s;}
+.ico {width: 50px;height: 50px;float: left;margin: 14px 0 0 14px;background-image: url(img/neightborhood2.png);background-repeat: no-repeat;transition: 0.3s;}
 .ico:hover {background-position-y:50px;}
 
 
