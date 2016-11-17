@@ -123,11 +123,19 @@ body.list-page {
 #tip {
   width: 300px;
   margin: auto;
+  font-weight: 200;
   padding: 10px 0 0 30px;
   font-size: 14px;
 }
 
-
+@media screen and (max-width:599px) {
+  .show-page img {
+    width: 100%;
+  }
+  .list-in h1 {
+    font-size: 30px;
+  }
+}
 
 
 
