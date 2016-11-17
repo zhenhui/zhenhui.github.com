@@ -1,0 +1,133 @@
+h1 {
+  font-size: 34px;
+  font-weight: 800;
+}
+html {
+  font-family: Helvetica,Arial,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Microsoft JhengHei,sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body.list-page {
+  background-color: #84c17d;
+}
+#list-title {
+  color:#2e3a3d;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#top-back {
+  float: right;
+  margin-right: 30px;
+}
+
+.list-in {
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.list-in h1 {
+  font-size: 50px;
+  text-align: left;
+  width: 1400px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.show-page {
+  padding-top: 20px;
+  border-bottom: 30px solid #84c17d;
+  padding-bottom: 200px;
+  margin-top: 200px;
+}
+.show-page:last-child {
+  border-bottom: 40px solid #84c17d;
+}
+.show-page:first-child {
+  margin-top: 0;
+}
+
+.show-page img {
+  transition: .3s;
+}
+.show-page img:hover {
+  box-shadow: 0 0 20px #999;
+}
+
+.back-link {
+  background-color:#84c17d;
+  padding: 30px;
+}
+
+.back-to-list {
+  display: block;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: #84c17d;
+  font-size: 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s
+}
+.back-to-list:hover {
+  background-color: #2e3a3d;
+}
+
+/*以下为表格部分*/
+.main-list-in {
+  width: 240px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 70px;
+  background-color: white;
+}
+.left {
+  float: left;
+}
+.main-list-in a {
+  text-decoration: none;
+  color: #84c17d;
+  display: block;
+}
+.main-list-in h1 {
+  margin: 0;
+}
+.main-list-in ul {
+  list-style: none;
+  margin-left: 50px;
+  padding-left: 0;
+  margin-top: 5px;
+}
+.main-list-in li {
+  font-size: 18px;
+  transition: .3s;
+  border-left: 0 solid white;
+}
+.main-list-in li:hover {
+  padding-left: 10px;
+  background-color: #FFFBC1;
+  border-left: 4px solid #84c17d;
+}
+
+#tip {
+  width: 300px;
+  margin: auto;
+  padding: 10px 0 0 30px;
+  font-size: 14px;
+}
+
+
+
+
+
