@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文本处理器</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/xml.min.js"></script>
+    <style>
+        * {
+                box-sizing: border-box;
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                margin: 0;
+                padding: 0;
+                font-weight: normal;
+                font-size: inherit;
+            }
+        body {
+            background-color: rgb(185, 185, 185);
+            font-family: Arial, sans-serif;
+            max-width: 1024px;
+            margin: 0px auto;
+            padding: 12px 0px;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            height: calc(100vh - 40px);
+            position: relative;
+        }
+
+        .input-container {
+            display: flex;
+            gap: 20px;
+            flex: 1;
+        }
+
+        .input-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .float-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 300px;
+            padding: 10px;
+            border: 0;
+            border-radius: 4px;
+            font-size: 16px;
+            resize: vertical;
+            flex: 1;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .modal {
+            z-index: 999;
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 0;
+            padding: 20px;
+            border-radius: 5px;
+            width: 80%;
+            height: 95vh;
+            max-width: 800px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .close {
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #777;
+        }
+
+        #processedText {
+            width: 100%;
+            flex: 1;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+        }
+
+        .modal-content pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.4;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        .button-group {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .button-group button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            background-color: #4a90e2;
+            color: white;
+            cursor: pointer;
+        }
+
+        .button-group button:hover {
+            background-color: #357abd;
+        }
+
+        /* 添加代码高亮相关样式 */
+        .modal-content code {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        /* 调整高亮代码块的样式 */
+        .hljs {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 4px;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        /* 添加吐司提示样式 */
+        .toast {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            z-index: 1000;
+            display: none;
+        }
+
+        .meta-input {
+            width: 100%;
+            padding: 10px;
+            border: 0;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        textarea.language-html, textarea.language-css {
+            background-color: #f5f5f5;
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        /* 调整高亮样式 */
+        .hljs {
+            background: #f5f5f5 !important;
+            padding: 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-container">
+            <div class="input-section">
+                <h3>输入HTML代码</h3>
+                <textarea id="inputHtml" class="language-html" placeholder="请输入需要处理的HTML代码..."></textarea>
+            </div>
+            <div class="input-section">
+                <h3>输入CSS</h3>
+                <textarea id="inputCss" class="language-css" placeholder="请输入需要处理的CSS代码..."></textarea>
+            </div>
+            <div class="input-section">
+                <h3>标题</h3>
+                <input type="text" id="metaDescription" value="make money online" class="meta-input" />
+                <h3>SEO</h3>
+                <input type="text" id="seoKeywords" value="Earn online, part-time, make money" class="meta-input" />
+            </div>
+        </div>
+        <button class="float-button" onclick="processText()">处理文本</button>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <pre><code class="language-html" id="processedText"></code></pre>
+            <div class="button-group">
+                <button onclick="matchImages()">找出图片</button>
+                <button onclick="copyText()">复制内容</button>
+                <button onclick="closeModal()">关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="imageModal" class="modal">
+        <div class="modal-content" style="max-height: 80vh;">
+            <div class="modal-header">
+                <h2>匹配到的图片</h2>
+                <span class="close" onclick="closeImageModal()">&times;</span>
+            </div>
+            <div id="imageList" style="flex: 1; overflow-y: auto; padding: 15px; background: #f5f5f5; cursor: pointer;"
+                onclick="copyImageList()"></div>
+            <div class="button-group">
+                <button onclick="copySvgList()">复制svg文件名</button>
+                <button onclick="copyImageList()">复制列表</button>
+                <button onclick="closeImageModal()">关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.style.display = 'block';
+            
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 1000);
+        }
+
+        function copyText() {
+            const processedText = document.getElementById('processedText');
+            const textArea = document.createElement('textarea');
+            textArea.value = processedText.textContent;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            // 使用吐司提示替代 alert
+            showToast('复制成功');
+        }
+
+        function processText() {
+            let htmlInput = document.getElementById('inputHtml').value;
+            let cssInput = document.getElementById('inputCss').value;
+            let metaDescription = document.getElementById('metaDescription').value.trim();
+            let seoKeywords = document.getElementById('seoKeywords').value.trim();
+
+            // 处理 HTML，移除多余的头部结构
+            let processedHtml = htmlInput
+                .replace(/<\/span>/g, '')
+                .replace(/<span class="pl-e">/g, '')
+                .replace(/<span class="pl-s">/g, '')
+                .replace(/<span class="pl-pds">/g, '')
+                .replace(/<span class="pl-c1">/g, '')
+                .replace(/<span class="pl-k">/g, '')
+                .replace(/<span class="pl-ent">/g, '')
+                .replace(/<span class="pl-v">/g, '')
+                .replace(/<\/pre>/g, '')
+                .replace(/&gt;/g, '>')
+                .replace(/&lt;/g, '<')
+                .replace(/<pre[^>]*>/g, '')
+                .replace(/&amp;/g, '&')
+                .replace(/&#39;/g, "'")
+                .replace(/&apos;/g, "'")
+                .replace(/&quot;/g, '"')
+                // 移除多余的 DOCTYPE、html、head 和 body 标签
+                .replace(/<!DOCTYPE[^>]*>/i, '')
+                .replace(/<html[^>]*>/i, '')
+                .replace(/<head>[\s\S]*?<\/head>/i, '')
+                .replace(/<body[^>]*>/i, '')
+                .replace(/<\/body>/i, '')
+                .replace(/<\/html>/i, '');
+
+            // 为第一个 div 添加 id
+            processedHtml = processedHtml.trim().replace(/<div/, '<div id="app-container"');
+
+            // 处理 HTML 后，添加图片路径处理
+            processedHtml = processedHtml
+                .replace(/\.\/img\//g, '../images/')  // 替换 ./img/
+                .replace(/(?<!\.|\/)img\//g, '../images/');  // 替换 img/，但不替换 ./img/ 和 /img/
+
+            let processedCss = cssInput
+                .replace(/<\/span>/g, '')
+                .replace(/<span class="pl-e">/g, '')
+                .replace(/<span class="pl-s">/g, '')
+                .replace(/<span class="pl-pds">/g, '')
+                .replace(/<span class="pl-c1">/g, '')
+                .replace(/<span class="pl-k">/g, '')
+                .replace(/<span class="pl-ent">/g, '')
+                .replace(/<span class="pl-v">/g, '')
+                .replace(/<\/pre>/g, '')
+                .replace(/&gt;/g, '>')
+                .replace(/&lt;/g, '<')
+                .replace(/<pre[^>]*>/g, '')
+                .replace(/&amp;/g, '&')
+                .replace(/&#39;/g, "'")
+                .replace(/&apos;/g, "'")
+                .replace(/&quot;/g, '"');
+
+            // 处理 CSS 中的图片路径
+            processedCss = processedCss
+                .replace(/\.\/img\//g, '../images/')  // 替换 ./img/
+                .replace(/(?<!\.|\/)img\//g, '../images/');  // 替换 img/，但不替换 ./img/ 和 /img/
+
+            // 默认CSS样式
+            const defaultStyles = `
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                background-image: initial;
+                background-position-x: initial;
+                background-position-y: initial;
+                background-size: initial;
+                background-repeat: initial;
+                background-attachment: initial;
+                background-origin: initial;
+                background-clip: initial;
+                background-color: rgb(255, 255, 255);
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                color: rgb(0, 0, 0);
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                margin: 0;
+                padding: 0;
+                font-weight: normal;
+                font-size: inherit;
+            }
+            `;
+
+            // 分别定义开始和结束标签
+            const scriptStart = '<' + 'script';
+            const scriptEnd = '</' + 'script' + '>';
+
+            // 构建 meta 标签
+            let metaTags = '';
+            if (metaDescription) {
+                metaTags += '    <meta content="' + metaDescription + '" name="description" />\n';
+            }
+            if (seoKeywords) {
+                metaTags += '    <meta property="og:title" content="' + seoKeywords + '" />\n' +
+                            '    <meta property="og:description" content="' + seoKeywords + '" />\n' +
+                            '    <meta name="keywords" content="' + seoKeywords + '" />\n' +
+                            '    <meta property="og:keywords" content="' + seoKeywords + '" />\n';
+            }
+
+            // 构建完整的 HTML 结构
+            const finalHtml = '<!DOCTYPE html>\n' +
+                '<html lang="en" xmlns:th="http://www.thymeleaf.org">\n' +
+                '<head>\n' +
+                '    <meta charset="UTF-8" />\n' +
+                '    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />\n' +
+                metaTags +
+                '    ' + scriptStart + ' src="../js/wow.js?v=1.0.0">' + scriptEnd + '\n' +
+                '    <th:block th:include="include :: header" />\n' +
+                '    <link rel="preload" href="../css/animate.css?v=1.0.0" as="style" onload="this.onload=null;this.rel=\'stylesheet\'" />\n' +
+                '    <link rel="preload" href="../css/bootstrap.min.css?v=1.0.0" as="style" onload="this.onload=null;this.rel=\'stylesheet\'" />\n' +
+                '    <link rel="stylesheet" href="../css/custom-pc.min.css?v=1.0.0" />\n' +
+                '    <link rel="stylesheet" href="../css/custom-h5.min.css?v=1.0.0" media="screen and (max-width: 768px)" />\n' +
+                '    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />\n' +
+                '    <style>\n' +
+                defaultStyles +
+                processedCss + '\n' +
+                '    </style>\n' +
+                '</head>\n' +
+                '<body>\n' +
+                processedHtml + '\n' +
+                '</body>\n' +
+                scriptStart + '>\n' +
+                '    window.addEventListener("load", () => { new WOW().init(); }); var swiper = new Swiper(".mySwiper", { navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev", }, });\n' +
+                scriptEnd + '\n' +
+                '</html>';
+
+            // 显示结果
+            const processedTextElement = document.getElementById('processedText');
+            processedTextElement.textContent = finalHtml;
+
+            // 应用代码高亮
+            hljs.highlightElement(processedTextElement);
+
+            document.getElementById('resultModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('resultModal').style.display = 'none';
+        }
+
+        // 点击模态框外部关闭
+        window.onclick = function (event) {
+            const resultModal = document.getElementById('resultModal');
+            const imageModal = document.getElementById('imageModal');
+            if (event.target == resultModal) {
+                resultModal.style.display = 'none';
+            }
+            if (event.target == imageModal) {
+                imageModal.style.display = 'none';
+            }
+        }
+
+        // 点击 X 关闭模态框
+        document.querySelector('.close').onclick = function () {
+            document.getElementById('resultModal').style.display = 'none';
+        }
+
+        function matchImages() {
+            const htmlContent = document.getElementById('processedText').textContent;
+            const cssContent = document.getElementById('inputCss').value;
+
+            // 匹配图片文件名的正则表达式
+            const imageRegex = /[a-zA-Z0-9_-]+\.(jpg|jpeg|png|svg)/g;
+
+            // 合并HTML和CSS内容进行匹配
+            const allContent = htmlContent + cssContent;
+            const matches = [...new Set(allContent.match(imageRegex) || [])];
+
+            // 显示匹配结果
+            const imageList = document.getElementById('imageList');
+            if (matches.length > 0) {
+                // 处理每个匹配项，为 SVG 文件添加红色样式
+                const formattedMatches = matches.map(filename => {
+                    if (filename.toLowerCase().endsWith('.svg')) {
+                        return `<span style="color: red;">${filename}</span>`;
+                    }
+                    return filename;
+                });
+                
+                imageList.innerHTML = formattedMatches.join('<br>');
+                document.getElementById('imageModal').style.display = 'block';
+            } else {
+                alert('未找到任何图片文件！');
+            }
+        }
+
+        function copyImageList() {
+            const imageList = document.getElementById('imageList');
+            const text = imageList.innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                showToast('复制成功');
+            }).catch(err => {
+                console.error('复制失败:', err);
+                showToast('复制失败');
+            });
+        }
+
+        function closeImageModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        // 在文档加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            const inputHtml = document.getElementById('inputHtml');
+            const inputCss = document.getElementById('inputCss');
+
+            // 为输入框添加实时高亮预览
+            function createPreviewElement(input, language) {
+                const preview = document.createElement('pre');
+                const code = document.createElement('code');
+                code.className = `language-${language}`;
+                preview.appendChild(code);
+                preview.style.cssText = 'display: none;';
+                input.parentNode.appendChild(preview);
+                
+                input.addEventListener('input', function() {
+                    code.textContent = this.value;
+                    hljs.highlightElement(code);
+                });
+            }
+
+            createPreviewElement(inputHtml, 'html');
+            createPreviewElement(inputCss, 'css');
+        });
+
+        function copySvgList() {
+            // 从图片列表中获取已经匹配到的SVG文件名
+            const imageList = document.getElementById('imageList');
+            const svgElements = imageList.querySelectorAll('span[style*="color: red"]');
+            
+            if (svgElements.length > 0) {
+                // 提取SVG文件名并用换行符连接
+                const svgList = Array.from(svgElements)
+                    .map(span => span.textContent)
+                    .join('\n');
+                    
+                // 创建临时文本区域进行复制
+                const textArea = document.createElement('textarea');
+                textArea.value = svgList;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                
+                showToast('SVG文件名复制成功');
+            } else {
+                showToast('未找到SVG文件');
+            }
+        }
+    </script>
+</body>
+
+</html>
